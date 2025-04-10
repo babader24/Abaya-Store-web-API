@@ -7,7 +7,7 @@ namespace Abaya_Store.Services.Interfaces
 		Task<IEnumerable<User>> GetAllAsync();
 		Task<User?> GetByIdAsync(int id);
 		Task<User> CreateAsync(User user);
-		Task<bool> UpdateAsync(User user);
+		Task<bool> UpdateAsync(int id, User user);
 		Task<bool> DeleteAsync(int id);
 	}
 }

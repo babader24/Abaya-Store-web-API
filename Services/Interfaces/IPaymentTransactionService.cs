@@ -5,7 +5,7 @@
 		Task<IEnumerable<PaymentTransaction>> GetAllAsync();
 		Task<PaymentTransaction?> GetByIdAsync(int id);
 		Task<PaymentTransaction> CreateAsync(PaymentTransaction transaction);
-		Task<bool> UpdateAsync(PaymentTransaction transaction);
+		Task<bool> UpdateAsync(int id, PaymentTransaction transaction);
 		Task<bool> DeleteAsync(int id);
 	}
 }

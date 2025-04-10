@@ -7,7 +7,7 @@ namespace Abaya_Store.Services.Interfaces
 		Task<IEnumerable<WishListItem>> GetAllAsync();
 		Task<WishListItem?> GetByIdAsync(int id);
 		Task<WishListItem> CreateAsync(WishListItem item);
-		Task<bool> UpdateAsync(WishListItem item);
+		Task<bool> UpdateAsync(int id, WishListItem item);
 		Task<bool> DeleteAsync(int id);
 	}
 }

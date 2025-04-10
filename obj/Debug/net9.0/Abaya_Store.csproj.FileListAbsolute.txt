@@ -176,3 +176,4 @@ F:\My_github_apps\Abaya_Store\bin\Debug\net9.0\Microsoft.Extensions.Configuratio
 F:\My_github_apps\Abaya_Store\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
 F:\My_github_apps\Abaya_Store\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Physical.dll
 F:\My_github_apps\Abaya_Store\bin\Debug\net9.0\Microsoft.Extensions.FileSystemGlobbing.dll
+F:\My_github_apps\Abaya_Store\obj\Debug\net9.0\Abaya_Store.sourcelink.json

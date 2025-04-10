@@ -63,7 +63,6 @@ namespace AbayaStore.Repository
 			return await query.ToListAsync();
 		}
 
-
 		public async Task<T> GetByIdIncludeAsync(int id, params Expression<Func<T, object>>[] includes)
 		{
 			IQueryable<T> query = _dbSet;

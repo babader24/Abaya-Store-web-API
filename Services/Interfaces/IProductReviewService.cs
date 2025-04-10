@@ -7,7 +7,7 @@ namespace Abaya_Store.Services.Interfaces
 		Task<IEnumerable<ProductReview>> GetAllAsync();
 		Task<ProductReview?> GetByIdAsync(int id);
 		Task<ProductReview> CreateAsync(ProductReview review);
-		Task<bool> UpdateAsync(ProductReview review);
+		Task<bool> UpdateAsync(int id, ProductReview review);
 		Task<bool> DeleteAsync(int id);
 	}
 }
