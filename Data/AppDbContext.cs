@@ -1,4 +1,4 @@
-﻿using AbayaStore.Models;
+﻿using namespace Abaya_Store.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace AbayaStore.Data

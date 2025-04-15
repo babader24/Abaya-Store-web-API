@@ -3,12 +3,48 @@
   "WorkspaceRootPath": "F:\\My_github_apps\\Abaya_Store\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E878E92D-959B-4960-A7CA-0AE14FCF1F36}|Abaya_Store.csproj|f:\\my_github_apps\\abaya_store\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E878E92D-959B-4960-A7CA-0AE14FCF1F36}|Abaya_Store.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\persistence\\contracts\\ibillrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\persistence\\contracts\\ibillrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E878E92D-959B-4960-A7CA-0AE14FCF1F36}|Abaya_Store.csproj|f:\\my_github_apps\\abaya_store\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E878E92D-959B-4960-A7CA-0AE14FCF1F36}|Abaya_Store.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2621882F-A9AE-417E-9594-6F90D7581B9A}|Abaya_Store.Domain\\Abaya_Store.Domain.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2621882F-A9AE-417E-9594-6F90D7581B9A}|Abaya_Store.Domain\\Abaya_Store.Domain.csproj|solutionrelative:abaya_store.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2621882F-A9AE-417E-9594-6F90D7581B9A}|Abaya_Store.Domain\\Abaya_Store.Domain.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.domain\\entities\\shippinginfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2621882F-A9AE-417E-9594-6F90D7581B9A}|Abaya_Store.Domain\\Abaya_Store.Domain.csproj|solutionrelative:abaya_store.domain\\entities\\shippinginfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2621882F-A9AE-417E-9594-6F90D7581B9A}|Abaya_Store.Domain\\Abaya_Store.Domain.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.domain\\entities\\productreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2621882F-A9AE-417E-9594-6F90D7581B9A}|Abaya_Store.Domain\\Abaya_Store.Domain.csproj|solutionrelative:abaya_store.domain\\entities\\productreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2621882F-A9AE-417E-9594-6F90D7581B9A}|Abaya_Store.Domain\\Abaya_Store.Domain.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.domain\\entities\\paymenttransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2621882F-A9AE-417E-9594-6F90D7581B9A}|Abaya_Store.Domain\\Abaya_Store.Domain.csproj|solutionrelative:abaya_store.domain\\entities\\paymenttransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\persistence\\contracts\\igenaricrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\persistence\\contracts\\igenaricrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2621882F-A9AE-417E-9594-6F90D7581B9A}|Abaya_Store.Domain\\Abaya_Store.Domain.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2621882F-A9AE-417E-9594-6F90D7581B9A}|Abaya_Store.Domain\\Abaya_Store.Domain.csproj|solutionrelative:abaya_store.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2621882F-A9AE-417E-9594-6F90D7581B9A}|Abaya_Store.Domain\\Abaya_Store.Domain.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.domain\\entities\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2621882F-A9AE-417E-9594-6F90D7581B9A}|Abaya_Store.Domain\\Abaya_Store.Domain.csproj|solutionrelative:abaya_store.domain\\entities\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2621882F-A9AE-417E-9594-6F90D7581B9A}|Abaya_Store.Domain\\Abaya_Store.Domain.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.domain\\entities\\orderdetaile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2621882F-A9AE-417E-9594-6F90D7581B9A}|Abaya_Store.Domain\\Abaya_Store.Domain.csproj|solutionrelative:abaya_store.domain\\entities\\orderdetaile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2621882F-A9AE-417E-9594-6F90D7581B9A}|Abaya_Store.Domain\\Abaya_Store.Domain.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.domain\\entities\\offerproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2621882F-A9AE-417E-9594-6F90D7581B9A}|Abaya_Store.Domain\\Abaya_Store.Domain.csproj|solutionrelative:abaya_store.domain\\entities\\offerproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2621882F-A9AE-417E-9594-6F90D7581B9A}|Abaya_Store.Domain\\Abaya_Store.Domain.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.domain\\entities\\wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2621882F-A9AE-417E-9594-6F90D7581B9A}|Abaya_Store.Domain\\Abaya_Store.Domain.csproj|solutionrelative:abaya_store.domain\\entities\\wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,32 +59,149 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "WeatherForecast.cs",
-              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\WeatherForecast.cs",
-              "RelativeToolTip": "WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Title": "IBillRepository.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Persistence\\Contracts\\IBillRepository.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Application\\Persistence\\Contracts\\IBillRepository.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Persistence\\Contracts\\IBillRepository.cs",
+              "RelativeToolTip": "Abaya_Store.Application\\Persistence\\Contracts\\IBillRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T06:28:03.317Z",
+              "WhenOpened": "2025-04-15T08:55:01.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IGenaricRepository.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Persistence\\Contracts\\IGenaricRepository.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Application\\Persistence\\Contracts\\IGenaricRepository.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Persistence\\Contracts\\IGenaricRepository.cs",
+              "RelativeToolTip": "Abaya_Store.Application\\Persistence\\Contracts\\IGenaricRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T08:45:03.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WishList.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Domain\\Entities\\WishList.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Domain\\Entities\\WishList.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Domain\\Entities\\WishList.cs",
+              "RelativeToolTip": "Abaya_Store.Domain\\Entities\\WishList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T08:09:44.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Domain\\Entities\\User.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Abaya_Store.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T08:09:41.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShippingInfo.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Domain\\Entities\\ShippingInfo.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Domain\\Entities\\ShippingInfo.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Domain\\Entities\\ShippingInfo.cs",
+              "RelativeToolTip": "Abaya_Store.Domain\\Entities\\ShippingInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T08:09:37.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductReview.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Domain\\Entities\\ProductReview.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Domain\\Entities\\ProductReview.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Domain\\Entities\\ProductReview.cs",
+              "RelativeToolTip": "Abaya_Store.Domain\\Entities\\ProductReview.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T08:09:33.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Domain\\Entities\\Product.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "Abaya_Store.Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T08:09:28.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Person.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Domain\\Entities\\Person.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Domain\\Entities\\Person.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Domain\\Entities\\Person.cs",
+              "RelativeToolTip": "Abaya_Store.Domain\\Entities\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T08:09:24.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PaymentTransaction.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Domain\\Entities\\PaymentTransaction.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Domain\\Entities\\PaymentTransaction.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Domain\\Entities\\PaymentTransaction.cs",
+              "RelativeToolTip": "Abaya_Store.Domain\\Entities\\PaymentTransaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T08:09:05.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderDetaile.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Domain\\Entities\\OrderDetaile.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Domain\\Entities\\OrderDetaile.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Domain\\Entities\\OrderDetaile.cs",
+              "RelativeToolTip": "Abaya_Store.Domain\\Entities\\OrderDetaile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T08:09:01.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OfferProduct.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Domain\\Entities\\OfferProduct.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Domain\\Entities\\OfferProduct.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Domain\\Entities\\OfferProduct.cs",
+              "RelativeToolTip": "Abaya_Store.Domain\\Entities\\OfferProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T08:08:56.595Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T08:11:17.482Z",
-              "EditorCaption": ""
             }
           ]
         }

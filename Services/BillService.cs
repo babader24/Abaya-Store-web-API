@@ -1,5 +1,5 @@
 ﻿using Abaya_Store.Services.Interfaces;
-using AbayaStore.Models;
+using namespace Abaya_Store.Domain.Entities;
 using AbayaStore.Repository.Base;
 using AutoMapper;
 

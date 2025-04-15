@@ -1,4 +1,4 @@
-﻿namespace AbayaStore.Models
+﻿namespace Abaya_Store.Domain.Entities
 {
 	public class OfferProduct
 	{

@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using AbayaStore.Models;
+using namespace Abaya_Store.Domain.Entities;
 
 namespace AbayaStore.Configurations
 {

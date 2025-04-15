@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Abaya_Store.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9f7941395c935671753aa3a4a5fcd9772872a9f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c9be6e935448c4d4ef7567fc999537bfa16401e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Abaya_Store.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Abaya_Store.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
