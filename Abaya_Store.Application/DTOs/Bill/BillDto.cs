@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Abaya_Store.Application.DTOs.Bill
 {
-    class BillDto
+    public class BillDto
     {
 		public int Id { get; set; }
 		public string BillNumber { get; set; }

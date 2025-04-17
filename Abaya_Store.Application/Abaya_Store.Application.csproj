@@ -14,15 +14,4 @@
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="DTOs\OrderDetaile\" />
-    <Folder Include="DTOs\PaymentTransaction\" />
-    <Folder Include="DTOs\Product\" />
-    <Folder Include="DTOs\ProductReview\" />
-    <Folder Include="DTOs\ShippingInfo\" />
-    <Folder Include="DTOs\User\" />
-    <Folder Include="DTOs\WishList\" />
-    <Folder Include="DTOs\WishListItem\" />
-  </ItemGroup>
-
 </Project>

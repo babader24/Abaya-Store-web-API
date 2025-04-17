@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Abaya_Store.Application.MappingProfiles
+namespace Abaya_Store.Application.DTOs.User
 {
 	public class UserDto
 	{

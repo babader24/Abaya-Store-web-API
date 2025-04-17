@@ -1,4 +1,5 @@
 ﻿using Abaya_Store.Application.DTOs.Offer;
+using Abaya_Store.Application.DTOs.Product;
 using System;
 using System.Collections.Generic;
 using System.Linq;
