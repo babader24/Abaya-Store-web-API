@@ -1,0 +1,16 @@
+F:\My_github_apps\Abaya_Store\Abaya_Store.Application\bin\Debug\net9.0\Abaya_Store.Application.deps.json
+F:\My_github_apps\Abaya_Store\Abaya_Store.Application\bin\Debug\net9.0\Abaya_Store.Application.dll
+F:\My_github_apps\Abaya_Store\Abaya_Store.Application\bin\Debug\net9.0\Abaya_Store.Application.pdb
+F:\My_github_apps\Abaya_Store\Abaya_Store.Application\bin\Debug\net9.0\Abaya_Store.Domain.dll
+F:\My_github_apps\Abaya_Store\Abaya_Store.Application\bin\Debug\net9.0\Abaya_Store.Domain.pdb
+F:\My_github_apps\Abaya_Store\Abaya_Store.Application\obj\Debug\net9.0\Abaya_Store.Application.csproj.AssemblyReference.cache
+F:\My_github_apps\Abaya_Store\Abaya_Store.Application\obj\Debug\net9.0\Abaya_Store.Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\My_github_apps\Abaya_Store\Abaya_Store.Application\obj\Debug\net9.0\Abaya_Store.Application.AssemblyInfoInputs.cache
+F:\My_github_apps\Abaya_Store\Abaya_Store.Application\obj\Debug\net9.0\Abaya_Store.Application.AssemblyInfo.cs
+F:\My_github_apps\Abaya_Store\Abaya_Store.Application\obj\Debug\net9.0\Abaya_Store.Application.csproj.CoreCompileInputs.cache
+F:\My_github_apps\Abaya_Store\Abaya_Store.Application\obj\Debug\net9.0\Abaya_Store.Application.sourcelink.json
+F:\My_github_apps\Abaya_Store\Abaya_Store.Application\obj\Debug\net9.0\Abaya_St.4CE0D6ED.Up2Date
+F:\My_github_apps\Abaya_Store\Abaya_Store.Application\obj\Debug\net9.0\Abaya_Store.Application.dll
+F:\My_github_apps\Abaya_Store\Abaya_Store.Application\obj\Debug\net9.0\refint\Abaya_Store.Application.dll
+F:\My_github_apps\Abaya_Store\Abaya_Store.Application\obj\Debug\net9.0\Abaya_Store.Application.pdb
+F:\My_github_apps\Abaya_Store\Abaya_Store.Application\obj\Debug\net9.0\ref\Abaya_Store.Application.dll

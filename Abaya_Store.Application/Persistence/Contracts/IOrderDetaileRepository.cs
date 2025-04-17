@@ -2,7 +2,7 @@
 
 namespace Abaya_Store.Application.Persistence.Contracts
 {
-	interface IOrderDetaileRepository : IGenaricRepository<Bill>
+	interface IOrderDetaileRepository : IGenaricRepository<OrderDetaile>
 	{
 	}
 }

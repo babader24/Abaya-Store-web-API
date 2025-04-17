@@ -1,4 +1,4 @@
-﻿namespace Abaya_Store.Domain.Entities
+﻿ namespace Abaya_Store.Domain.Entities
 {
 	public class AuditLog
 	{

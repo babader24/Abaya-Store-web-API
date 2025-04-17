@@ -10,4 +10,23 @@
     <ProjectReference Include="..\Abaya_Store.Domain\Abaya_Store.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DTOs\Customer\" />
+    <Folder Include="DTOs\NewsletterSubscription\" />
+    <Folder Include="DTOs\Offer\" />
+    <Folder Include="DTOs\OfferProduct\" />
+    <Folder Include="DTOs\OrderDetaile\" />
+    <Folder Include="DTOs\PaymentTransaction\" />
+    <Folder Include="DTOs\Product\" />
+    <Folder Include="DTOs\ProductReview\" />
+    <Folder Include="DTOs\ShippingInfo\" />
+    <Folder Include="DTOs\User\" />
+    <Folder Include="DTOs\WishList\" />
+    <Folder Include="DTOs\WishListItem\" />
+  </ItemGroup>
+
 </Project>

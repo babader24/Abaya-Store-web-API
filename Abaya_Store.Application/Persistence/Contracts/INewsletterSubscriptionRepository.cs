@@ -2,7 +2,7 @@
 
 namespace Abaya_Store.Application.Persistence.Contracts
 {
-	interface INewsletterSubscriptionRepository : IGenaricRepository<Bill>
+	interface INewsletterSubscriptionRepository : IGenaricRepository<NewsletterSubscription>
 	{
 	}
 }
