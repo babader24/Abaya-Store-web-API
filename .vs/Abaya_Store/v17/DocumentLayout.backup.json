@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "F:\\My_github_apps\\Abaya_Store\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2621882F-A9AE-417E-9594-6F90D7581B9A}|Abaya_Store.Domain\\Abaya_Store.Domain.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.domain\\entities\\offerproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2621882F-A9AE-417E-9594-6F90D7581B9A}|Abaya_Store.Domain\\Abaya_Store.Domain.csproj|solutionrelative:abaya_store.domain\\entities\\offerproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\mappingprofiles\\offerproductprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\mappingprofiles\\offerproductprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\dtos\\offerproduct\\offerproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\dtos\\offerproduct\\offerproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\mappingprofiles\\offerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\mappingprofiles\\offerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\dtos\\offer\\offerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\dtos\\offer\\offerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +35,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OfferProduct.cs",
-              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Domain\\Entities\\OfferProduct.cs",
-              "RelativeDocumentMoniker": "Abaya_Store.Domain\\Entities\\OfferProduct.cs",
-              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Domain\\Entities\\OfferProduct.cs",
-              "RelativeToolTip": "Abaya_Store.Domain\\Entities\\OfferProduct.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Title": "OfferProductProfile.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\MappingProfiles\\OfferProductProfile.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Application\\MappingProfiles\\OfferProductProfile.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\MappingProfiles\\OfferProductProfile.cs*",
+              "RelativeToolTip": "Abaya_Store.Application\\MappingProfiles\\OfferProductProfile.cs*",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T08:08:56.595Z",
+              "WhenOpened": "2025-04-17T10:37:14.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OfferProductDto.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\DTOs\\OfferProduct\\OfferProductDto.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Application\\DTOs\\OfferProduct\\OfferProductDto.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\DTOs\\OfferProduct\\OfferProductDto.cs*",
+              "RelativeToolTip": "Abaya_Store.Application\\DTOs\\OfferProduct\\OfferProductDto.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwA8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T10:36:08.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OfferProfile.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\MappingProfiles\\OfferProfile.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Application\\MappingProfiles\\OfferProfile.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\MappingProfiles\\OfferProfile.cs",
+              "RelativeToolTip": "Abaya_Store.Application\\MappingProfiles\\OfferProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T10:35:40.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OfferDto.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\DTOs\\Offer\\OfferDto.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Application\\DTOs\\Offer\\OfferDto.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\DTOs\\Offer\\OfferDto.cs",
+              "RelativeToolTip": "Abaya_Store.Application\\DTOs\\Offer\\OfferDto.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA1wCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T10:35:09.41Z",
               "EditorCaption": ""
             }
           ]
