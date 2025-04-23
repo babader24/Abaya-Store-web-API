@@ -12,6 +12,59 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\AuditLog - Copy %2810%29\Handlers\Commands\" />
+    <Folder Include="Features\AuditLog - Copy %2810%29\Handlers\Queries\" />
+    <Folder Include="Features\AuditLog - Copy %2810%29\Requests\" />
+    <Folder Include="Features\AuditLog - Copy %2811%29\Handlers\Commands\" />
+    <Folder Include="Features\AuditLog - Copy %2811%29\Handlers\Queries\" />
+    <Folder Include="Features\AuditLog - Copy %2811%29\Requests\" />
+    <Folder Include="Features\AuditLog - Copy %2812%29\Handlers\Commands\" />
+    <Folder Include="Features\AuditLog - Copy %2812%29\Handlers\Queries\" />
+    <Folder Include="Features\AuditLog - Copy %2812%29\Requests\" />
+    <Folder Include="Features\AuditLog - Copy %2813%29\Handlers\Commands\" />
+    <Folder Include="Features\AuditLog - Copy %2813%29\Handlers\Queries\" />
+    <Folder Include="Features\AuditLog - Copy %2813%29\Requests\" />
+    <Folder Include="Features\AuditLog - Copy %2814%29\Handlers\Commands\" />
+    <Folder Include="Features\AuditLog - Copy %2814%29\Handlers\Queries\" />
+    <Folder Include="Features\AuditLog - Copy %2814%29\Requests\" />
+    <Folder Include="Features\AuditLog - Copy %2815%29\Handlers\Commands\" />
+    <Folder Include="Features\AuditLog - Copy %2815%29\Handlers\Queries\" />
+    <Folder Include="Features\AuditLog - Copy %2815%29\Requests\" />
+    <Folder Include="Features\AuditLog - Copy %2816%29\Handlers\Commands\" />
+    <Folder Include="Features\AuditLog - Copy %2816%29\Handlers\Queries\" />
+    <Folder Include="Features\AuditLog - Copy %2816%29\Requests\" />
+    <Folder Include="Features\AuditLog - Copy %282%29\Handlers\Commands\" />
+    <Folder Include="Features\AuditLog - Copy %282%29\Handlers\Queries\" />
+    <Folder Include="Features\AuditLog - Copy %282%29\Requests\" />
+    <Folder Include="Features\AuditLog - Copy %283%29\Handlers\Commands\" />
+    <Folder Include="Features\AuditLog - Copy %283%29\Handlers\Queries\" />
+    <Folder Include="Features\AuditLog - Copy %283%29\Requests\" />
+    <Folder Include="Features\AuditLog - Copy %284%29\Handlers\Commands\" />
+    <Folder Include="Features\AuditLog - Copy %284%29\Handlers\Queries\" />
+    <Folder Include="Features\AuditLog - Copy %284%29\Requests\" />
+    <Folder Include="Features\AuditLog - Copy %285%29\Handlers\Commands\" />
+    <Folder Include="Features\AuditLog - Copy %285%29\Handlers\Queries\" />
+    <Folder Include="Features\AuditLog - Copy %285%29\Requests\" />
+    <Folder Include="Features\AuditLog - Copy %286%29\Handlers\Commands\" />
+    <Folder Include="Features\AuditLog - Copy %286%29\Handlers\Queries\" />
+    <Folder Include="Features\AuditLog - Copy %286%29\Requests\" />
+    <Folder Include="Features\AuditLog - Copy %287%29\Handlers\Commands\" />
+    <Folder Include="Features\AuditLog - Copy %287%29\Handlers\Queries\" />
+    <Folder Include="Features\AuditLog - Copy %287%29\Requests\" />
+    <Folder Include="Features\AuditLog - Copy %288%29\Handlers\Commands\" />
+    <Folder Include="Features\AuditLog - Copy %288%29\Handlers\Queries\" />
+    <Folder Include="Features\AuditLog - Copy %288%29\Requests\" />
+    <Folder Include="Features\AuditLog - Copy %289%29\Handlers\Commands\" />
+    <Folder Include="Features\AuditLog - Copy %289%29\Handlers\Queries\" />
+    <Folder Include="Features\AuditLog - Copy %289%29\Requests\" />
+    <Folder Include="Features\Bills\Handlers\Commands\" />
+    <Folder Include="Features\Bills\Handlers\Queries\" />
+    <Folder Include="Features\Bills\Requests\Commands\" />
+    <Folder Include="Features\Bills\Requests\Queries\" />
   </ItemGroup>
 
 </Project>
