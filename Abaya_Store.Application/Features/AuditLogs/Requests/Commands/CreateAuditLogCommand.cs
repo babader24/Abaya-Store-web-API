@@ -12,4 +12,5 @@ namespace Abaya_Store.Application.Features.AuditLogs.Requests.Commands
     {
 		public AuditLogDto AuditLogDto { get; set; } 
 	}
+
 }

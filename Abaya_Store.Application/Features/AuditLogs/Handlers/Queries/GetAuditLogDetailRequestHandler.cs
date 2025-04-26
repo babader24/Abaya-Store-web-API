@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Abaya_Store.Application.Features.AuditLogs.Handlers.Queries
 {
-	class GetAuditLogDetailRequestHandler : IRequestHandler<GetAuditLogDetailRequest, AuditLogDto>
+	public class GetAuditLogDetailRequestHandler : IRequestHandler<GetAuditLogDetailRequest, AuditLogDto>
 	{
 		private readonly IAuditLogRepository _auditLogRepository;
 		private readonly IMapper _mapper;

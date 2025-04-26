@@ -2,7 +2,7 @@
 
 namespace Abaya_Store.Application.Persistence.Contracts
 {
-	interface IAuditLogRepository : IGenaricRepository<AuditLog>
+	public interface IAuditLogRepository : IGenaricRepository<AuditLog>
 	{
 	}
 }

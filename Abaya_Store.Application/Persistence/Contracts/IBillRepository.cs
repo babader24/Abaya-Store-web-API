@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Abaya_Store.Application.Persistence.Contracts
 {
-    interface IBillRepository : IGenaricRepository<Bill>
+	public interface IBillRepository : IGenaricRepository<Bill>
     {
     }
 }

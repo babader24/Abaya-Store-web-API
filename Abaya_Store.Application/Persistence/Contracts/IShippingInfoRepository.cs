@@ -2,6 +2,7 @@
 
 namespace Abaya_Store.Application.Persistence.Contracts
 {
-	interface IShippingInfoRepository : IGenaricRepository<ShippingInfo>
+	public interface IShippingInfoRepository : IGenaricRepository<ShippingInfo>
 	{
-	}	}
+	}	
+}

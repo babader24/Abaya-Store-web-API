@@ -2,7 +2,7 @@
 
 namespace Abaya_Store.Application.Persistence.Contracts
 {
-	interface IUserRepository : IGenaricRepository<User>
+	public interface IUserRepository : IGenaricRepository<User>
 	{
 
 	}

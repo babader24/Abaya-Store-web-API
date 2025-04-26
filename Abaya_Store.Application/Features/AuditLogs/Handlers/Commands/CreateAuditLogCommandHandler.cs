@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Abaya_Store.Application.Features.AuditLogs.Handlers.Commands
 {
-	class CreateAuditLogCommandHandler : IRequestHandler<CreateAuditLogCommand, int>
+	public class CreateAuditLogCommandHandler : IRequestHandler<CreateAuditLogCommand, int>
 	{
 		private readonly IAuditLogRepository _auditLogRepository;
 		private readonly IMapper _mapper;

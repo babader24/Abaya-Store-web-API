@@ -2,7 +2,7 @@
 
 namespace Abaya_Store.Application.Persistence.Contracts
 {
-	interface ICategoryRepository : IGenaricRepository<Category>
+	public interface ICategoryRepository : IGenaricRepository<Category>
 	{
 	}
 }

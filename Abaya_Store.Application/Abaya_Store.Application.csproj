@@ -37,9 +37,7 @@
     <Folder Include="Features\AuditLog - Copy %2816%29\Handlers\Commands\" />
     <Folder Include="Features\AuditLog - Copy %2816%29\Handlers\Queries\" />
     <Folder Include="Features\AuditLog - Copy %2816%29\Requests\" />
-    <Folder Include="Features\AuditLog - Copy %282%29\Handlers\Commands\" />
-    <Folder Include="Features\AuditLog - Copy %282%29\Handlers\Queries\" />
-    <Folder Include="Features\AuditLog - Copy %282%29\Requests\" />
+    <Folder Include="Features\Cart\Handlers\Commands\" />
     <Folder Include="Features\AuditLog - Copy %283%29\Handlers\Commands\" />
     <Folder Include="Features\AuditLog - Copy %283%29\Handlers\Queries\" />
     <Folder Include="Features\AuditLog - Copy %283%29\Requests\" />
@@ -61,10 +59,7 @@
     <Folder Include="Features\AuditLog - Copy %289%29\Handlers\Commands\" />
     <Folder Include="Features\AuditLog - Copy %289%29\Handlers\Queries\" />
     <Folder Include="Features\AuditLog - Copy %289%29\Requests\" />
-    <Folder Include="Features\Bills\Handlers\Commands\" />
-    <Folder Include="Features\Bills\Handlers\Queries\" />
-    <Folder Include="Features\Bills\Requests\Commands\" />
-    <Folder Include="Features\Bills\Requests\Queries\" />
+    <Folder Include="Features\Cart\Requests\Commands\" />
   </ItemGroup>
 
 </Project>

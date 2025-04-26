@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Abaya_Store.Application.DTOs.Cart
 {
-    class CartDto
+	public class CartDto
     {
 		public int Id { get; set; }
 		public int CustomerId { get; set; }

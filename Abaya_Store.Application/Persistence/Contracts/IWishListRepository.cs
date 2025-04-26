@@ -2,7 +2,7 @@
 
 namespace Abaya_Store.Application.Persistence.Contracts
 {
-	interface IWishListRepository : IGenaricRepository<WishList>
+	public interface IWishListRepository : IGenaricRepository<WishList>
 	{
 	}
 }
