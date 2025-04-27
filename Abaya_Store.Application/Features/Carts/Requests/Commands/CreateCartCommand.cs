@@ -12,8 +12,4 @@ namespace Abaya_Store.Application.Features.Carts.Requests.Commands
     {
 		public CartDto CartDto { get; set; }
 	}
-	public class UpdateCartCommand : IRequest<int>
-	{
-		public CartDto CartDto { get; set; }
-	}
 }
