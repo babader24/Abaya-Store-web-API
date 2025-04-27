@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Abaya_Store.Application.Features.OrderDetails.Requests.Queries
 {
-    public class GetOrderDetailsListRequest : IRequest<List<OrderDetailListDto>
+    public class GetOrderDetailsListRequest : IRequest<List<OrderDetailListDto>>
     {
     }
 }
