@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "F:\\My_github_apps\\Abaya_Store\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\features\\offerproducts\\handlers\\commands\\deleteofferproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\features\\offerproducts\\handlers\\commands\\deleteofferproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\features\\orderdetails\\handlers\\commands\\deleteorderdetailcommandhandkler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\features\\orderdetails\\handlers\\commands\\deleteorderdetailcommandhandkler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\features\\offerproducts\\handlers\\queries\\getofferproductslistrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\features\\offerproducts\\handlers\\queries\\getofferproductslistrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\features\\orderdetails\\handlers\\queries\\getorderdetailslistrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\features\\orderdetails\\handlers\\queries\\getorderdetailslistrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\features\\offerproducts\\requests\\queries\\getofferproductslistrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\features\\offerproducts\\requests\\queries\\getofferproductslistrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\features\\orderdetails\\requests\\commands\\craeteorderdetailcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\features\\orderdetails\\requests\\commands\\craeteorderdetailcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,40 +31,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DeleteOfferProductCommandHandler.cs",
-              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\OfferProducts\\Handlers\\Commands\\DeleteOfferProductCommandHandler.cs",
-              "RelativeDocumentMoniker": "Abaya_Store.Application\\Features\\OfferProducts\\Handlers\\Commands\\DeleteOfferProductCommandHandler.cs",
-              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\OfferProducts\\Handlers\\Commands\\DeleteOfferProductCommandHandler.cs",
-              "RelativeToolTip": "Abaya_Store.Application\\Features\\OfferProducts\\Handlers\\Commands\\DeleteOfferProductCommandHandler.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAVAAAAAAAAAA==",
+              "Title": "DeleteOrderDetailCommandHandkler.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\OrderDetails\\Handlers\\Commands\\DeleteOrderDetailCommandHandkler.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Application\\Features\\OrderDetails\\Handlers\\Commands\\DeleteOrderDetailCommandHandkler.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\OrderDetails\\Handlers\\Commands\\DeleteOrderDetailCommandHandkler.cs",
+              "RelativeToolTip": "Abaya_Store.Application\\Features\\OrderDetails\\Handlers\\Commands\\DeleteOrderDetailCommandHandkler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T11:41:35.202Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GetOfferProductsListRequestHandler.cs",
-              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\OfferProducts\\Handlers\\Queries\\GetOfferProductsListRequestHandler.cs",
-              "RelativeDocumentMoniker": "Abaya_Store.Application\\Features\\OfferProducts\\Handlers\\Queries\\GetOfferProductsListRequestHandler.cs",
-              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\OfferProducts\\Handlers\\Queries\\GetOfferProductsListRequestHandler.cs",
-              "RelativeToolTip": "Abaya_Store.Application\\Features\\OfferProducts\\Handlers\\Queries\\GetOfferProductsListRequestHandler.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T11:27:35.244Z",
+              "WhenOpened": "2025-04-27T12:59:12.596Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GetOfferProductsListRequest.cs",
-              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\OfferProducts\\Requests\\Queries\\GetOfferProductsListRequest.cs",
-              "RelativeDocumentMoniker": "Abaya_Store.Application\\Features\\OfferProducts\\Requests\\Queries\\GetOfferProductsListRequest.cs",
-              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\OfferProducts\\Requests\\Queries\\GetOfferProductsListRequest.cs",
-              "RelativeToolTip": "Abaya_Store.Application\\Features\\OfferProducts\\Requests\\Queries\\GetOfferProductsListRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Title": "CraeteOrderDetailCommand.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\OrderDetails\\Requests\\Commands\\CraeteOrderDetailCommand.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Application\\Features\\OrderDetails\\Requests\\Commands\\CraeteOrderDetailCommand.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\OrderDetails\\Requests\\Commands\\CraeteOrderDetailCommand.cs",
+              "RelativeToolTip": "Abaya_Store.Application\\Features\\OrderDetails\\Requests\\Commands\\CraeteOrderDetailCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T11:25:27.817Z",
+              "WhenOpened": "2025-04-27T12:53:02.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetOrderDetailsListRequestHandler.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\OrderDetails\\Handlers\\Queries\\GetOrderDetailsListRequestHandler.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Application\\Features\\OrderDetails\\Handlers\\Queries\\GetOrderDetailsListRequestHandler.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\OrderDetails\\Handlers\\Queries\\GetOrderDetailsListRequestHandler.cs",
+              "RelativeToolTip": "Abaya_Store.Application\\Features\\OrderDetails\\Handlers\\Queries\\GetOrderDetailsListRequestHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T12:42:40.314Z",
               "EditorCaption": ""
             }
           ]
