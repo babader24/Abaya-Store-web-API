@@ -37,9 +37,6 @@
     <Folder Include="Features\AuditLog - Copy %2816%29\Handlers\Commands\" />
     <Folder Include="Features\AuditLog - Copy %2816%29\Handlers\Queries\" />
     <Folder Include="Features\AuditLog - Copy %2816%29\Requests\" />
-    <Folder Include="Features\NewsletterSubscriptions\Handlers\Commands\" />
-    <Folder Include="Features\NewsletterSubscriptions\Handlers\Queries\" />
-    <Folder Include="Features\NewsletterSubscriptions\Requests\" />
     <Folder Include="Features\AuditLog - Copy %287%29\Handlers\Commands\" />
     <Folder Include="Features\AuditLog - Copy %287%29\Handlers\Queries\" />
     <Folder Include="Features\AuditLog - Copy %287%29\Requests\" />
