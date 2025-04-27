@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "F:\\My_github_apps\\Abaya_Store\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\features\\categories\\handlers\\queries\\getcategorylistrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\features\\categories\\handlers\\queries\\getcategorylistrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\features\\customers\\handlers\\commands\\createcustomercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\features\\customers\\handlers\\commands\\createcustomercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\features\\categories\\requests\\queries\\getcategorylistrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\features\\categories\\requests\\queries\\getcategorylistrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\features\\customers\\handlers\\queries\\getdetailcustomerrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\features\\customers\\handlers\\queries\\getdetailcustomerrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\features\\customers\\handlers\\queries\\getcustomerlistrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\features\\customers\\handlers\\queries\\getcustomerlistrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\features\\customers\\requests\\queries\\getdetailcustomerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\features\\customers\\requests\\queries\\getdetailcustomerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +35,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GetCategoryListRequestHandler.cs",
-              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\Categories\\Handlers\\Queries\\GetCategoryListRequestHandler.cs",
-              "RelativeDocumentMoniker": "Abaya_Store.Application\\Features\\Categories\\Handlers\\Queries\\GetCategoryListRequestHandler.cs",
-              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\Categories\\Handlers\\Queries\\GetCategoryListRequestHandler.cs",
-              "RelativeToolTip": "Abaya_Store.Application\\Features\\Categories\\Handlers\\Queries\\GetCategoryListRequestHandler.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Title": "CreateCustomerCommandHandler.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\Customers\\Handlers\\Commands\\CreateCustomerCommandHandler.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Application\\Features\\Customers\\Handlers\\Commands\\CreateCustomerCommandHandler.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\Customers\\Handlers\\Commands\\CreateCustomerCommandHandler.cs*",
+              "RelativeToolTip": "Abaya_Store.Application\\Features\\Customers\\Handlers\\Commands\\CreateCustomerCommandHandler.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T07:34:34.773Z",
+              "WhenOpened": "2025-04-27T08:41:33.228Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GetCategoryListRequest.cs",
-              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\Categories\\Requests\\Queries\\GetCategoryListRequest.cs",
-              "RelativeDocumentMoniker": "Abaya_Store.Application\\Features\\Categories\\Requests\\Queries\\GetCategoryListRequest.cs",
-              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\Categories\\Requests\\Queries\\GetCategoryListRequest.cs*",
-              "RelativeToolTip": "Abaya_Store.Application\\Features\\Categories\\Requests\\Queries\\GetCategoryListRequest.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "Title": "GetDetailCustomerRequestHandler.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\Customers\\Handlers\\Queries\\GetDetailCustomerRequestHandler.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Application\\Features\\Customers\\Handlers\\Queries\\GetDetailCustomerRequestHandler.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\Customers\\Handlers\\Queries\\GetDetailCustomerRequestHandler.cs",
+              "RelativeToolTip": "Abaya_Store.Application\\Features\\Customers\\Handlers\\Queries\\GetDetailCustomerRequestHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T07:32:54.1Z",
+              "WhenOpened": "2025-04-27T08:38:09.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetDetailCustomerRequest.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\Customers\\Requests\\Queries\\GetDetailCustomerRequest.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Application\\Features\\Customers\\Requests\\Queries\\GetDetailCustomerRequest.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\Customers\\Requests\\Queries\\GetDetailCustomerRequest.cs",
+              "RelativeToolTip": "Abaya_Store.Application\\Features\\Customers\\Requests\\Queries\\GetDetailCustomerRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T08:37:03.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetCustomerListRequestHandler.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\Customers\\Handlers\\Queries\\GetCustomerListRequestHandler.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Application\\Features\\Customers\\Handlers\\Queries\\GetCustomerListRequestHandler.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\Customers\\Handlers\\Queries\\GetCustomerListRequestHandler.cs",
+              "RelativeToolTip": "Abaya_Store.Application\\Features\\Customers\\Handlers\\Queries\\GetCustomerListRequestHandler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T08:33:57.601Z",
               "EditorCaption": ""
             }
           ]

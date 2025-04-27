@@ -1,0 +1,36 @@
+﻿using Abaya_Store.Application.Features.Customers.Requests.Commands;
+using Abaya_Store.Application.Persistence.Contracts;
+using AutoMapper;
+using MediatR;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Abaya_Store.Application.Features.Customers.Handlers.Commands
+{
+	public class UpdateCustomerCommandHandler : IRequestHandler<UpdateCustomerCommand, Unit>
+	{
+		private readonly ICustomerRepository _customerRepository;
+		private readonly IMapper _mapper;
+
+		public UpdateCustomerCommandHandler(ICustomerRepository customerRepository, IMapper mapper)
+		{
+			_customerRepository = customerRepository;
+			_mapper = mapper;
+		}
+		public async Task<Unit> Handle(UpdateCustomerCommand request, CancellationToken cancellationToken)
+		{
+			var cutomer = await _customerRepository.GetByIdAsync(request.CustomerUpdateDto.Id);
+
+			if(cutomer != null)
+			{
+				_mapper.Map(request.CustomerUpdateDto, cutomer);
+
+				await _customerRepository.UpdateAsync(cutomer);
+			}
+			return Unit.Value;
+		}
+	}
+}
