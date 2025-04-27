@@ -16,9 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\AuditLog - Copy %2815%29\Handlers\Commands\" />
-    <Folder Include="Features\AuditLog - Copy %2815%29\Handlers\Queries\" />
-    <Folder Include="Features\AuditLog - Copy %2815%29\Requests\" />
     <Folder Include="Features\AuditLog - Copy %2816%29\Handlers\Commands\" />
     <Folder Include="Features\AuditLog - Copy %2816%29\Handlers\Queries\" />
     <Folder Include="Features\AuditLog - Copy %2816%29\Requests\" />
