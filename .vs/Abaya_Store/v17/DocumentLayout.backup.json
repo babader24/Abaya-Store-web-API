@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "F:\\My_github_apps\\Abaya_Store\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\features\\productreviews\\handlers\\commands\\updateproductreviewcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\features\\productreviews\\handlers\\commands\\updateproductreviewcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\features\\productreviews\\handlers\\queries\\getproductreviewslistrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\features\\productreviews\\handlers\\queries\\getproductreviewslistrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\features\\productreviews\\requests\\commands\\updateproductreviewcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\features\\productreviews\\requests\\commands\\updateproductreviewcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\features\\productreviews\\requests\\queries\\getproductreviewslistrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\features\\productreviews\\requests\\queries\\getproductreviewslistrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\features\\users\\handlers\\commands\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\features\\users\\handlers\\commands\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,53 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UpdateProductReviewCommandHandler.cs",
-              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\ProductReviews\\Handlers\\Commands\\UpdateProductReviewCommandHandler.cs",
-              "RelativeDocumentMoniker": "Abaya_Store.Application\\Features\\ProductReviews\\Handlers\\Commands\\UpdateProductReviewCommandHandler.cs",
-              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\ProductReviews\\Handlers\\Commands\\UpdateProductReviewCommandHandler.cs",
-              "RelativeToolTip": "Abaya_Store.Application\\Features\\ProductReviews\\Handlers\\Commands\\UpdateProductReviewCommandHandler.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowCUAAAAAAAAAAAAAAA==",
+              "Title": "CreateUserCommandHandler.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\Users\\Handlers\\Commands\\CreateUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Application\\Features\\Users\\Handlers\\Commands\\CreateUserCommandHandler.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\Users\\Handlers\\Commands\\CreateUserCommandHandler.cs",
+              "RelativeToolTip": "Abaya_Store.Application\\Features\\Users\\Handlers\\Commands\\CreateUserCommandHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAD4vxYAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T13:55:11.636Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GetProductReviewsListRequestHandler.cs",
-              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\ProductReviews\\Handlers\\Queries\\GetProductReviewsListRequestHandler.cs",
-              "RelativeDocumentMoniker": "Abaya_Store.Application\\Features\\ProductReviews\\Handlers\\Queries\\GetProductReviewsListRequestHandler.cs",
-              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\ProductReviews\\Handlers\\Queries\\GetProductReviewsListRequestHandler.cs",
-              "RelativeToolTip": "Abaya_Store.Application\\Features\\ProductReviews\\Handlers\\Queries\\GetProductReviewsListRequestHandler.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAqwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T13:54:17.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UpdateProductReviewCommand.cs",
-              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\ProductReviews\\Requests\\Commands\\UpdateProductReviewCommand.cs",
-              "RelativeDocumentMoniker": "Abaya_Store.Application\\Features\\ProductReviews\\Requests\\Commands\\UpdateProductReviewCommand.cs",
-              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\ProductReviews\\Requests\\Commands\\UpdateProductReviewCommand.cs",
-              "RelativeToolTip": "Abaya_Store.Application\\Features\\ProductReviews\\Requests\\Commands\\UpdateProductReviewCommand.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAkwA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T13:53:04.436Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetProductReviewsListRequest.cs",
-              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\ProductReviews\\Requests\\Queries\\GetProductReviewsListRequest.cs",
-              "RelativeDocumentMoniker": "Abaya_Store.Application\\Features\\ProductReviews\\Requests\\Queries\\GetProductReviewsListRequest.cs",
-              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\ProductReviews\\Requests\\Queries\\GetProductReviewsListRequest.cs",
-              "RelativeToolTip": "Abaya_Store.Application\\Features\\ProductReviews\\Requests\\Queries\\GetProductReviewsListRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T13:52:18.684Z",
+              "WhenOpened": "2025-04-27T14:04:07.255Z",
               "EditorCaption": ""
             }
           ]
