@@ -18,7 +18,7 @@ namespace Abaya_Store.Application.MappingProfiles
 				.ForMember(dest => dest.ProductImage, opt => opt.MapFrom(src => src.Product.Image))
 				.ForMember(dest => dest.ProductPrice, opt => opt.MapFrom(src => src.Product.UnitPrice));
 
-			CreateMap<WishListItem, WishListItemBriefDto>()
+			CreateMap<WishListItem, WishListItemListfDto>()
 				.ForMember(dest => dest.ProductName, opt => opt.MapFrom(src => src.Product.Name));
 
 			CreateMap<WishListItemCreateDto, WishListItem>();

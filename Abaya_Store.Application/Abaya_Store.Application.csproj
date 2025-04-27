@@ -15,10 +15,4 @@
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Features\AuditLog - Copy %2816%29\Handlers\Commands\" />
-    <Folder Include="Features\AuditLog - Copy %2816%29\Handlers\Queries\" />
-    <Folder Include="Features\AuditLog - Copy %2816%29\Requests\" />
-  </ItemGroup>
-
 </Project>

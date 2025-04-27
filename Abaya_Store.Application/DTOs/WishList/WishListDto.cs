@@ -25,7 +25,7 @@ namespace Abaya_Store.Application.DTOs.WishList
 		public int CustomerId { get; set; }
 		public int TotalItems => Items?.Count ?? 0;
 
-		public List<WishListItemBriefDto> Items { get; set; }
+		public List<WishListItemListfDto> Items { get; set; }
 	}
 
 }

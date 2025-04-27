@@ -19,8 +19,12 @@ namespace Abaya_Store.Application.DTOs.WishListItem
 	{
 		public int ProductId { get; set; }
 	}
-
-	public class WishListItemBriefDto
+	public class WishListItemUpdateDto
+	{
+		public int Id { get; set; }
+		public int ProductId { get; set; }
+	}
+	public class WishListItemListfDto
 	{
 		public int Id { get; set; }
 		public string ProductName { get; set; }
