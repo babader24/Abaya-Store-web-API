@@ -2,7 +2,7 @@
 
 namespace Abaya_Store.Application.Persistence.Contracts
 {
-	public interface ICartRepository : IGenaricRepository<CartItem>
+	public interface ICartRepository : IGenaricRepository<Cart>
 	{
 	}
 }

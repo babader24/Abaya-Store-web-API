@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Abaya_Store.Application.Features.Cart.Requests.Queries
+namespace Abaya_Store.Application.Features.Carts.Requests.Queries
 {
     public class GetDetailCartRequest : IRequest<CartDto>
     {

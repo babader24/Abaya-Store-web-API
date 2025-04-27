@@ -1,5 +1,5 @@
 ﻿using Abaya_Store.Application.DTOs.Cart;
-using Abaya_Store.Application.Features.Cart.Requests.Queries;
+using Abaya_Store.Application.Features.Carts.Requests.Queries;
 using Abaya_Store.Application.Persistence.Contracts;
 using AutoMapper;
 using MediatR;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Abaya_Store.Application.Features.Cart.Handlers.Queries
+namespace Abaya_Store.Application.Features.Carts.Handlers.Queries
 {
 	public class GetDetailCartRequestHandler : IRequestHandler<GetDetailCartRequest, CartDto>
 	{
@@ -23,9 +23,9 @@ namespace Abaya_Store.Application.Features.Cart.Handlers.Queries
 		}
 		public async Task<CartDto> Handle(GetDetailCartRequest request, CancellationToken cancellationToken)
 		{
-			var cart = await _cartRepository.GetByIdAsync(request.Id);
+			var cart = await _cartRepository.GetByIdIncludeAsync(request.Id);
 
 			return _mapper.Map<CartDto>(cart);
 		}
-	}
+	}	
 }

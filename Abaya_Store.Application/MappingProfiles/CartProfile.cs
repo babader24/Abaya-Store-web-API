@@ -20,7 +20,8 @@ namespace Abaya_Store.Application.MappingProfiles
 			CreateMap<Cart, CartDto>()
 				.ForMember(dest => dest.CustomerName, opt => opt.MapFrom(src => $"{src.Customer.FirstName} {src.Customer.LastName}"));
 
-			CreateMap<CartCreateDto, Cart>();
+			CreateMap<CartDto, Cart>();
+
 		}
 	}
 }
