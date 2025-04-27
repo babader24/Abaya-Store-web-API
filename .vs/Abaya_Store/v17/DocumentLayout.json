@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "F:\\My_github_apps\\Abaya_Store\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\features\\offerproducts\\handlers\\commands\\deleteofferproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\features\\offerproducts\\handlers\\commands\\deleteofferproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\features\\offerproducts\\handlers\\queries\\getofferproductslistrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\features\\offerproducts\\handlers\\queries\\getofferproductslistrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\features\\offerproducts\\requests\\queries\\getofferproductslistrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\features\\offerproducts\\requests\\queries\\getofferproductslistrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +22,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DeleteOfferProductCommandHandler.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\OfferProducts\\Handlers\\Commands\\DeleteOfferProductCommandHandler.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Application\\Features\\OfferProducts\\Handlers\\Commands\\DeleteOfferProductCommandHandler.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\OfferProducts\\Handlers\\Commands\\DeleteOfferProductCommandHandler.cs",
+              "RelativeToolTip": "Abaya_Store.Application\\Features\\OfferProducts\\Handlers\\Commands\\DeleteOfferProductCommandHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T11:41:35.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetOfferProductsListRequestHandler.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\OfferProducts\\Handlers\\Queries\\GetOfferProductsListRequestHandler.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Application\\Features\\OfferProducts\\Handlers\\Queries\\GetOfferProductsListRequestHandler.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\OfferProducts\\Handlers\\Queries\\GetOfferProductsListRequestHandler.cs",
+              "RelativeToolTip": "Abaya_Store.Application\\Features\\OfferProducts\\Handlers\\Queries\\GetOfferProductsListRequestHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T11:27:35.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetOfferProductsListRequest.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\OfferProducts\\Requests\\Queries\\GetOfferProductsListRequest.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Application\\Features\\OfferProducts\\Requests\\Queries\\GetOfferProductsListRequest.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\OfferProducts\\Requests\\Queries\\GetOfferProductsListRequest.cs",
+              "RelativeToolTip": "Abaya_Store.Application\\Features\\OfferProducts\\Requests\\Queries\\GetOfferProductsListRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T11:25:27.817Z",
+              "EditorCaption": ""
             }
           ]
         }
