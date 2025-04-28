@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Abaya_Store.Application.DTOs.Bill
 {
-    public class BillDto
+    public class BillDto 
     {
 		public int Id { get; set; }
 		public string BillNumber { get; set; }
@@ -20,7 +20,7 @@ namespace Abaya_Store.Application.DTOs.Bill
 		public string? CustomerName { get; set; }
 		public string? ShippingAddress { get; set; }
 	}
-	public class CreateBillDto
+	public class CreateBillDto : IBillDto
 	{
 		public string BillNumber { get; set; }
 		public int CustomerId { get; set; }
@@ -31,7 +31,7 @@ namespace Abaya_Store.Application.DTOs.Bill
 		// ممكن ترسل بيانات الشحن لو حابب
 		// public ShippingInfoDto ShippingInfo { get; set; }
 	}
-	public class UpdateBillDto
+	public class UpdateBillDto : IBillDto
 	{
 		public string BillNumber { get; set; }
 		public int CustomerId { get; set; }

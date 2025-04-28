@@ -7,7 +7,7 @@
 		public int CustomerId { get; set; }
 		public DateTime BillDate { get; set; } = DateTime.Now;
 		public decimal Total { get; set; }
-		public string Notes { get; set; }
+		public string? Notes { get; set; }
 		public byte PaymentStatus { get; set; } 
 
 		public virtual ShippingInfo ShippingInfo { get; set; }
