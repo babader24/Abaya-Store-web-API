@@ -1,4 +1,5 @@
-﻿using Abaya_Store.Application.Features.WishListItems.Requests.Commands;
+﻿using Abaya_Store.Application.DTOs.WishListItem.Validator;
+using Abaya_Store.Application.Features.WishListItems.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
 using Abaya_Store.Domain.Entities;
 using AutoMapper;
@@ -24,6 +25,12 @@ namespace Abaya_Store.Application.Features.WishListItems.Handlers.Commands
 
 		public async Task<int> Handle(CreateWishListItemCommand request, CancellationToken cancellationToken)
 		{
+			var createValidator = new WishListItemCreateDtoValidator();
+			var createResult = createValidator.Validate(request.CreateDto);
+
+			if (!createResult.IsValid)
+				throw new Exception(string.Join("\n", createResult.Errors));
+
 			var wishListItem = _mapper.Map<WishListItem>(request.CreateDto);
 		
 

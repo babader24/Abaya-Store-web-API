@@ -28,7 +28,7 @@ namespace Abaya_Store.Application.DTOs.User
 
 		public List<string> AuditActions { get; set; }
 	}
-	public class UserUpdateDto
+	public class UserUpdateDto : IUserDto
 	{
 		public int Id { get; set; }
 
@@ -58,7 +58,7 @@ namespace Abaya_Store.Application.DTOs.User
 		public DateTime? LastLogin { get; set; }
 	}
 
-	public class UserCreateDto
+	public class UserCreateDto : IUserDto
 	{
 		public string UserName { get; set; }
 
@@ -75,5 +75,4 @@ namespace Abaya_Store.Application.DTOs.User
 		public string Position { get; set; }
 		public byte Permissions { get; set; }
 	}
-
 }

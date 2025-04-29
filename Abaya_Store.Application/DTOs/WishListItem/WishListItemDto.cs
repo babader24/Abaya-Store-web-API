@@ -15,11 +15,11 @@ namespace Abaya_Store.Application.DTOs.WishListItem
 		public decimal ProductPrice { get; set; }
 		public DateTime DateAdded { get; set; }
 	}
-	public class WishListItemCreateDto
+	public class WishListItemCreateDto : IWishListItemDto
 	{
 		public int ProductId { get; set; }
 	}
-	public class WishListItemUpdateDto
+	public class WishListItemUpdateDto : IWishListItemDto
 	{
 		public int Id { get; set; }
 		public int ProductId { get; set; }

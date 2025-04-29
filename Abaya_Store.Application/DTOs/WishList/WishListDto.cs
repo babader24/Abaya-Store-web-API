@@ -13,12 +13,7 @@ namespace Abaya_Store.Application.DTOs.WishList
 		public int CustomerId { get; set; }
 
 		public List<WishListItemDto> Items { get; set; }
-	}
-	public class WishListCreateDto
-	{
-		public int CustomerId { get; set; }
-	}
-
+	}	
 	public class WishListListDto
 	{
 		public int Id { get; set; }
@@ -27,5 +22,10 @@ namespace Abaya_Store.Application.DTOs.WishList
 
 		public List<WishListItemListfDto> Items { get; set; }
 	}
+	public class WishListCreateDto
+	{
+		public int CustomerId { get; set; }
+	}
+
 
 }

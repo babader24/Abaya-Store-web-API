@@ -1,4 +1,5 @@
-﻿using Abaya_Store.Application.Features.Users.Requests.Commands;
+﻿using Abaya_Store.Application.DTOs.User.Validator;
+using Abaya_Store.Application.Features.Users.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
 using AutoMapper;
 using MediatR;
@@ -18,6 +19,12 @@ namespace Abaya_Store.Application.Features.Users.Handlers.Commands
 
 		public async Task<Unit> Handle(UpdateUserCommand request, CancellationToken cancellationToken)
 		{
+			var updateValidator = new UserUpdateDtoValidator();
+			var updateResult = updateValidator.Validate(request.UpdateDto);
+
+			if (!updateResult.IsValid)
+				throw new Exception(string.Join("\n", updateResult.Errors));
+
 			var user = await _userRepository.GetByIdAsync(request.UpdateDto.Id);
 
 			if (user != null)
