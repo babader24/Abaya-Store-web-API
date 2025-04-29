@@ -25,7 +25,7 @@ namespace Abaya_Store.Application.DTOs.Offer
 		public DateTime EndDate { get; set; }
 	}
 
-	public class OfferUpdateDto
+	public class OfferUpdateDto : IOfferDto
 	{
 		public int Id { get; set; }
 		public decimal DiscountPercentage { get; set; }
@@ -33,7 +33,7 @@ namespace Abaya_Store.Application.DTOs.Offer
 		public DateTime EndDate { get; set; }
 	}
 
-	public class OfferCreateDto
+	public class OfferCreateDto : IOfferDto
 	{
 		public decimal DiscountPercentage { get; set; }
 		public DateTime StartDate { get; set; }

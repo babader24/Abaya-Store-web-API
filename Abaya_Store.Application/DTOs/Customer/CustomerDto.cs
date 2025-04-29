@@ -38,7 +38,7 @@ namespace Abaya_Store.Application.DTOs.Customer
 		public bool IsSubscribedToNewsletter { get; set; }
 	}
 
-	public class CustomerUpdateDto
+	public class CustomerUpdateDto : ICustomerDto
 	{
 		public int Id { get; set; }
 
@@ -55,7 +55,7 @@ namespace Abaya_Store.Application.DTOs.Customer
 		public bool IsSubscribedToNewsletter { get; set; }
 		public string? Notes { get; set; }
 	}
-	public class CustomerCreateDto
+	public class CustomerCreateDto : ICustomerDto
 	{
 		public string FirstName { get; set; }
 		public string LastName { get; set; }

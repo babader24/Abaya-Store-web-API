@@ -22,12 +22,12 @@ namespace Abaya_Store.Application.DTOs.NewsletterSubscription
 		public bool IsActive { get; set; }
 		public DateTime SubscribedAt { get; set; }
 	}
-	public class NewsletterSubscriptionUpdateDto
+	public class NewsletterSubscriptionUpdateDto 
 	{
 		public int Id { get; set; }
 		public bool IsActive { get; set; }
 	}
-	public class NewsletterSubscriptionCreateDto
+	public class NewsletterSubscriptionCreateDto : INewsletterSubscriptionDto
 	{
 		public int? CustomerId { get; set; }
 		public string Email { get; set; }

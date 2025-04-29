@@ -1,4 +1,5 @@
-﻿using Abaya_Store.Application.Features.Offers.Requests.Commands;
+﻿using Abaya_Store.Application.DTOs.Offer.Validator;
+using Abaya_Store.Application.Features.Offers.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
 using Abaya_Store.Domain.Entities;
 using AutoMapper;
@@ -23,6 +24,12 @@ namespace Abaya_Store.Application.Features.Offers.Handlers.Commands
 		}
 		public async Task<int> Handle(CreateOfferCommand request, CancellationToken cancellationToken)
 		{
+			var createValidator = new OfferCreateDtoValidator();
+			var createValidatorResult = createValidator.Validate(request.createDto);
+
+			if (!createValidatorResult.IsValid)
+				throw new Exception(createValidatorResult.ToString());
+
 			var offer = _mapper.Map<Offer>(request.createDto);
 
 			offer = await _offerRepository.AddAsync(offer);
