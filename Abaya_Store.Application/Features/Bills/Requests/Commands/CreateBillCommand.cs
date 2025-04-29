@@ -10,6 +10,6 @@ namespace Abaya_Store.Application.Features.Bills.Requests.Commands
 {
     public class CreateBillCommand : IRequest<int>
     {
-		public BillDto BillDto { get; set; }		
+		public CreateBillDto BillDto { get; set; }		
 	}  
 }

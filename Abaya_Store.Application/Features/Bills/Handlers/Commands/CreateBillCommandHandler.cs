@@ -1,4 +1,5 @@
-﻿using Abaya_Store.Application.Features.Bills.Requests.Commands;
+﻿using Abaya_Store.Application.DTOs.Bill.Validators;
+using Abaya_Store.Application.Features.Bills.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
 using Abaya_Store.Domain.Entities;
 using AutoMapper;
@@ -23,6 +24,12 @@ namespace Abaya_Store.Application.Features.Bills.Handlers.Commands
 		}
 		public async Task<int> Handle(CreateBillCommand request, CancellationToken cancellationToken)
 		{
+			var validator = new CreateBillDtoValidator();
+			var validatorResult = validator.Validate(request.BillDto);
+
+			if (validatorResult.IsValid == false)
+				throw new Exception();
+
 			var bill = _mapper.Map<Bill>(request.BillDto);
 
 			bill = await _billRepository.AddAsync(bill);

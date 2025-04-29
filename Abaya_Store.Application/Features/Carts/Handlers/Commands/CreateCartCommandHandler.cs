@@ -1,4 +1,5 @@
-﻿using Abaya_Store.Application.Features.Carts.Requests.Commands;
+﻿using Abaya_Store.Application.DTOs.Cart.Validator;
+using Abaya_Store.Application.Features.Carts.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
 using Abaya_Store.Domain.Entities;
 using AutoMapper;
@@ -23,6 +24,11 @@ namespace Abaya_Store.Application.Features.Carts.Handlers.Commands
 		}
 		public async Task<int> Handle(CreateCartCommand request, CancellationToken cancellationToken)
 		{
+			var validator = new CartCreateDtoValidator ();
+			var validatorResult = validator.Validate(request.CartDto);
+
+			if (validatorResult.IsValid == false)
+				throw new Exception();
 			var cart = _mapper.Map<Cart>(request.CartDto);
 
 			cart = await _cartRepository.AddAsync(cart);

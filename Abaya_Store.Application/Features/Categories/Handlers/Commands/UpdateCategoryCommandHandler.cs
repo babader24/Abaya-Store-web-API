@@ -1,4 +1,5 @@
-﻿using Abaya_Store.Application.Features.Categories.Requests.Commands;
+﻿using Abaya_Store.Application.DTOs.Category.Validator;
+using Abaya_Store.Application.Features.Categories.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
 using AutoMapper;
 using MediatR;
@@ -22,6 +23,12 @@ namespace Abaya_Store.Application.Features.Categories.Handlers.Commands
 		}
 		public async Task<Unit> Handle(UpdateCategoryCommand request, CancellationToken cancellationToken)
 		{
+			var validator = new CategoryUpdateDtoValidator();
+			var validatorResult = validator.Validate(request.categoryUpdateDto);
+
+			if (!validatorResult.IsValid)
+				throw new Exception();
+
 			var category = await _categoryRepository.GetByIdAsync(request.categoryUpdateDto.Id);
 
 			if(category != null)

@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace Abaya_Store.Application.DTOs.Bill.Validators
 {
-    class IBillValidator : AbstractValidator<IBillDto>
-    {
-		public IBillValidator()
+    public class CreateBillDtoValidator : AbstractValidator<CreateBillDto>
+	{
+		public CreateBillDtoValidator()
 		{
-			
+			Include(new IBillDtoValidator());
 		}
 	}
 }

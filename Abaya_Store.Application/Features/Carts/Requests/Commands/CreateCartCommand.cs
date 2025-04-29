@@ -10,6 +10,6 @@ namespace Abaya_Store.Application.Features.Carts.Requests.Commands
 {
     public class CreateCartCommand : IRequest<int>
     {
-		public CartDto CartDto { get; set; }
+		public CartCreateDto CartDto { get; set; }
 	}
 }

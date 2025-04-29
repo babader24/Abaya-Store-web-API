@@ -20,12 +20,12 @@ namespace Abaya_Store.Application.DTOs.CartItem
 		public string ProductName { get; set; }
 		public int Quantity { get; set; }
 	}
-	public class CartItemCreateDto
+	public class CartItemCreateDto : ICartItemDto
 	{
 		public int ProductId { get; set; }
 		public int Quantity { get; set; }
 	}
-	public class CartItemUpdateDto
+	public class CartItemUpdateDto : ICartItemDto
 	{
 		public int Id { get; set; }
 		public int Quantity { get; set; }

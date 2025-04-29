@@ -12,12 +12,12 @@ namespace Abaya_Store.Application.DTOs.Category
 		public string Name { get; set; }
 		public List<string> ProductNames { get; set; }
 	}
-	public class CategoryCreateDto
+	public class CategoryCreateDto : ICategoryDto
 	{
 		public string Name { get; set; }
 	}
 
-	public class CategoryUpdateDto
+	public class CategoryUpdateDto : ICategoryDto
 	{
 		public int Id { get; set; }
 		public string Name { get; set; }

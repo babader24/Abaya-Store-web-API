@@ -16,4 +16,19 @@
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DTOs\Customer\Validator\" />
+    <Folder Include="DTOs\NewsletterSubscription\Validator\" />
+    <Folder Include="DTOs\OfferProduct\Validator\" />
+    <Folder Include="DTOs\Offer\Validator\" />
+    <Folder Include="DTOs\OrderDetaile\Validator\" />
+    <Folder Include="DTOs\PaymentTransaction\Validator\" />
+    <Folder Include="DTOs\ProductReview\Validator\" />
+    <Folder Include="DTOs\Product\Validator\" />
+    <Folder Include="DTOs\ShippingInfo\Validator\" />
+    <Folder Include="DTOs\User\Validator\" />
+    <Folder Include="DTOs\WishListItem\Validator\" />
+    <Folder Include="DTOs\WishList\Validator\" />
+  </ItemGroup>
+
 </Project>
