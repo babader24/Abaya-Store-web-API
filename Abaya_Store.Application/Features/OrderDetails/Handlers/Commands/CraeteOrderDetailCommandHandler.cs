@@ -1,4 +1,5 @@
-﻿using Abaya_Store.Application.Features.OrderDetails.Requests.Commands;
+﻿using Abaya_Store.Application.DTOs.OrderDetaile.Validator;
+using Abaya_Store.Application.Features.OrderDetails.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
 using Abaya_Store.Domain.Entities;
 using AutoMapper;
@@ -23,6 +24,12 @@ namespace Abaya_Store.Application.Features.OrderDetails.Handlers.Commands
 		}
 		public async Task<int> Handle(CraeteOrderDetailCommand request, CancellationToken cancellationToken)
 		{
+			var createValidator = new OrderDetailCreateDtoValidator();
+			var createResult = createValidator.Validate(request.createDto);
+
+			if (!createResult.IsValid)
+				throw new Exception(createResult.ToString());
+
 			var orderDetail = _mapper.Map<OrderDetaile>(request.createDto);
 
 			orderDetail = await _orderDetaileRepository.AddAsync(orderDetail);

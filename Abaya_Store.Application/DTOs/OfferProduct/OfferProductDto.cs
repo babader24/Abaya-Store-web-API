@@ -25,17 +25,16 @@ namespace Abaya_Store.Application.DTOs.OfferProduct
 
 		public string ProductName { get; set; }  // للحصول على اسم المنتج المرتبط بالعروض
 	}
-	public class OfferProductUpdateDto
+	public class OfferProductUpdateDto : IOfferProductDto
 	{
 		public int Id { get; set; }
 		public int OfferId { get; set; }
 		public int ProductId { get; set; }
 	}
-	public class OfferProductCreateDto
+	public class OfferProductCreateDto : IOfferProductDto
 	{
 		public int OfferId { get; set; }
 		public int ProductId { get; set; }
 	}
-
 
 }

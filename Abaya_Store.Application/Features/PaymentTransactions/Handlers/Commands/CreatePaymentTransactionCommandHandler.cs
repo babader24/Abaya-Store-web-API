@@ -1,4 +1,5 @@
-﻿using Abaya_Store.Application.Features.PaymentTransactions.Requests.Commands;
+﻿using Abaya_Store.Application.DTOs.PaymentTransaction.Validator;
+using Abaya_Store.Application.Features.PaymentTransactions.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
 using Abaya_Store.Domain.Entities;
 using AutoMapper;
@@ -24,6 +25,12 @@ namespace Abaya_Store.Application.Features.PaymentTransactions.Handlers.Commands
 
 		public async Task<int> Handle(CreatePaymentTransactionCommand request, CancellationToken cancellationToken)
 		{
+			var createValidator = new PaymentTransactionCreateDtoValidator();
+			var createResult = createValidator.Validate(request.createDto);
+
+			if (!createResult.IsValid)
+				throw new Exception(createResult.ToString());
+
 			var payment = _mapper.Map<PaymentTransaction>(request.createDto);
 
 			payment = await _paymentTransactionRepository.AddAsync(payment);

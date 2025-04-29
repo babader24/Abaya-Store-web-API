@@ -20,7 +20,7 @@ namespace Abaya_Store.Application.DTOs.PaymentTransaction
 
 		public BillDto Bill { get; set; } // تفاصيل الفاتورة المرتبطة بالمعاملة
 	}
-	public class PaymentTransactionCreateDto
+	public class PaymentTransactionCreateDto : IPaymentTransactionDto
 	{
 		public int BillId { get; set; }
 		public string PaymentGateway { get; set; }
@@ -30,7 +30,7 @@ namespace Abaya_Store.Application.DTOs.PaymentTransaction
 		public string? ResponseMessage { get; set; }
 	}
 
-	public class PaymentTransactionUpdateDto
+	public class PaymentTransactionUpdateDto : IPaymentTransactionDto
 	{
 		public int Id { get; set; }
 		public int BillId { get; set; }
@@ -40,7 +40,6 @@ namespace Abaya_Store.Application.DTOs.PaymentTransaction
 		public bool IsSuccess { get; set; }
 		public string? ResponseMessage { get; set; }
 	}
-
 	public class PaymentTransactionListDto
 	{
 		public int Id { get; set; }

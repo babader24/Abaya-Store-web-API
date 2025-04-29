@@ -20,7 +20,7 @@ namespace Abaya_Store.Application.DTOs.OrderDetaile
 		public ProductDto Product { get; set; } // تفاصيل المنتج المرتبط بالطلب
 		public BillDto Bill { get; set; } // تفاصيل الفاتورة المرتبطة بالطلب
 	}
-	public class OrderDetailCreateDto
+	public class OrderDetailCreateDto : IOrderDetailDto
 	{
 		public int ProductId { get; set; }
 		public int Quantity { get; set; }
@@ -29,7 +29,7 @@ namespace Abaya_Store.Application.DTOs.OrderDetaile
 		public int BillId { get; set; }
 	}
 
-	public class OrderDetailUpdateDto
+	public class OrderDetailUpdateDto : IOrderDetailDto
 	{
 		public int Id { get; set; }
 		public int ProductId { get; set; }
@@ -50,5 +50,4 @@ namespace Abaya_Store.Application.DTOs.OrderDetaile
 
 		public string ProductName { get; set; }  // للحصول على اسم المنتج المرتبط بتفاصيل الطلب
 	}
-
 }

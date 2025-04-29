@@ -1,4 +1,5 @@
-﻿using Abaya_Store.Application.Features.OfferProducts.Requests.Commands;
+﻿using Abaya_Store.Application.DTOs.OfferProduct.Validator;
+using Abaya_Store.Application.Features.OfferProducts.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
 using AutoMapper;
 using MediatR;
@@ -22,6 +23,12 @@ namespace Abaya_Store.Application.Features.OfferProducts.Handlers.Commands
 		}
 		public async Task<Unit> Handle(UpdateOfferProductCommand request, CancellationToken cancellationToken)
 		{
+			var updateProductValidator = new OfferProductUpdateDtoValidator();
+			var updateProductResult = updateProductValidator.Validate(request.updateDto);
+
+			if (!updateProductResult.IsValid)
+				throw new Exception(updateProductResult.ToString());
+
 			var offerProduct = await _offerProductRepository.GetByIdAsync(request.updateDto.Id);
 
 			if(offerProduct != null)
