@@ -1,4 +1,5 @@
-﻿using Abaya_Store.Application.Features.Products.Requests.Commands;
+﻿using Abaya_Store.Application.DTOs.Product.Validator;
+using Abaya_Store.Application.Features.Products.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
 using Abaya_Store.Domain.Entities;
 using AutoMapper;
@@ -23,6 +24,13 @@ namespace Abaya_Store.Application.Features.Products.Handlers.Commands
 		}
 		public async Task<int> Handle(CreateProductCommand request, CancellationToken cancellationToken)
 		{
+			var createValidator = new ProductCreateDtoValidator();
+			var createResult = createValidator.Validate(request.createDto);
+
+			if (!createResult.IsValid)
+				throw new Exception(string.Join("\n", createResult.Errors));
+
+
 			var product = _mapper.Map<Product>(request.createDto);
 
 			product = await _productRepository.AddAsync(product);

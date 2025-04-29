@@ -15,7 +15,7 @@ namespace Abaya_Store.Application.DTOs.ProductReview
 		public string Comment { get; set; }
 		public DateTime Date { get; set; }
 	}
-	public class ProductReviewCreateDto
+	public class ProductReviewCreateDto : IProductReviewDto
 	{
 		public int ProductId { get; set; }
 		public int CustomerId { get; set; }
@@ -23,7 +23,7 @@ namespace Abaya_Store.Application.DTOs.ProductReview
 		public string Comment { get; set; }
 	}
 
-	public class ProductReviewUpdateDto
+	public class ProductReviewUpdateDto : IProductReviewDto
 	{
 		public int Id { get; set; }
 		public int ProductId { get; set; }
@@ -39,5 +39,4 @@ namespace Abaya_Store.Application.DTOs.ProductReview
 		public int Rating { get; set; } // 1-5
 		public string Comment { get; set; }
 	}
-
 }

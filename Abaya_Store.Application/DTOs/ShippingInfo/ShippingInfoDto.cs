@@ -22,7 +22,7 @@ namespace Abaya_Store.Application.DTOs.ShippingInfo
 		public string Address { get; set; }
 		public byte DeliveryStatus { get; set; }
 	}
-	public class ShippingInfoCreateDto
+	public class ShippingInfoCreateDto : IShippingInfoDto
 	{
 		public int BillId { get; set; }
 		public string City { get; set; }
@@ -31,7 +31,7 @@ namespace Abaya_Store.Application.DTOs.ShippingInfo
 		public byte DeliveryStatus { get; set; }
 	}
 
-	public class ShippingInfoUpdateDto
+	public class ShippingInfoUpdateDto : IShippingInfoDto
 	{
 		public int Id { get; set; }
 		public string City { get; set; }

@@ -30,7 +30,7 @@ namespace Abaya_Store.Application.DTOs.Product
 		public int QuantityAvailable { get; set; }
 		public string Size { get; set; }
 	}
-	public class ProductCreateDto
+	public class ProductCreateDto : IProductDto
 	{
 		public string Name { get; set; }
 		public string Image { get; set; }
@@ -42,7 +42,7 @@ namespace Abaya_Store.Application.DTOs.Product
 		public int? OfferId { get; set; }  // يمكن إضافة عرض أو لا
 	}
 
-	public class ProductUpdateDto
+	public class ProductUpdateDto : IProductDto
 	{
 		public int Id { get; set; }
 		public string Name { get; set; }

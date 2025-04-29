@@ -1,4 +1,5 @@
-﻿using Abaya_Store.Application.Features.ShippingInfos.Requests.Commands;
+﻿using Abaya_Store.Application.DTOs.ShippingInfo.Validator;
+using Abaya_Store.Application.Features.ShippingInfos.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
 using Abaya_Store.Domain.Entities;
 using AutoMapper;
@@ -24,6 +25,12 @@ namespace Abaya_Store.Application.Features.ShippingInfos.Handlers.Commands
 
 		public async Task<int> Handle(CreateShippingInfoCommand request, CancellationToken cancellationToken)
 		{
+			var createValidator = new ShippingInfoCreateDtoValidator();
+			var createResult = createValidator.Validate(request.createDto);
+
+			if (!createResult.IsValid)
+				throw new Exception(string.Join("\n", createResult.Errors));
+
 			var shippingInfo = _mapper.Map<ShippingInfo>(request.createDto);
 			shippingInfo = await _shippingInfoRepository.AddAsync(shippingInfo);
 			return shippingInfo.Id;

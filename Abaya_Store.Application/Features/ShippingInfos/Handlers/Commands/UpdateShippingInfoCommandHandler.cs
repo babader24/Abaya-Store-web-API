@@ -1,4 +1,5 @@
-﻿using Abaya_Store.Application.Features.ShippingInfos.Requests.Commands;
+﻿using Abaya_Store.Application.DTOs.ShippingInfo.Validator;
+using Abaya_Store.Application.Features.ShippingInfos.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
 using AutoMapper;
 using MediatR;
@@ -18,6 +19,12 @@ namespace Abaya_Store.Application.Features.ShippingInfos.Handlers.Commands
 
 		public async Task<Unit> Handle(UpdateShippingInfoCommand request, CancellationToken cancellationToken)
 		{
+			var updateValidator = new ShippingInfoUpdateDtoValidator();
+			var updateResult = updateValidator.Validate(request.updateDto);
+
+			if (!updateResult.IsValid)
+				throw new Exception(string.Join("\n", updateResult.Errors));
+
 			var shippingInfo = await _shippingInfoRepository.GetByIdAsync(request.updateDto.Id);
 
 			if (shippingInfo != null)

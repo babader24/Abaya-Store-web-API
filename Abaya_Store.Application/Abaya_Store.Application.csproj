@@ -17,9 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DTOs\ProductReview\Validator\" />
-    <Folder Include="DTOs\Product\Validator\" />
-    <Folder Include="DTOs\ShippingInfo\Validator\" />
     <Folder Include="DTOs\User\Validator\" />
     <Folder Include="DTOs\WishListItem\Validator\" />
     <Folder Include="DTOs\WishList\Validator\" />
