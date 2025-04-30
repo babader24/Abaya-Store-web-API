@@ -1,4 +1,5 @@
-﻿using Abaya_Store.Application.Features.PaymentTransactions.Requests.Commands;
+﻿using Abaya_Store.Application.Exceptions;
+using Abaya_Store.Application.Features.PaymentTransactions.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
 using AutoMapper;
 using MediatR;
@@ -24,6 +25,9 @@ namespace Abaya_Store.Application.Features.PaymentTransactions.Handlers.Commands
 		public async Task<Unit> Handle(DeletePaymentTransactionCommand request, CancellationToken cancellationToken)
 		{
 			var payment = await _paymentTransactionRepository.GetByIdAsync(request.Id);
+
+			if (payment == null)
+				throw new NotFoundException(nameof(payment), request.Id);
 
 			await _paymentTransactionRepository.DeleteAsync(payment);
 

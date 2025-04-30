@@ -1,4 +1,5 @@
-﻿ using Abaya_Store.Application.Features.Bills.Requests.Commands;
+﻿using Abaya_Store.Application.Exceptions;
+using Abaya_Store.Application.Features.Bills.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
 using AutoMapper;
 using MediatR;
@@ -23,6 +24,9 @@ namespace Abaya_Store.Application.Features.Bills.Handlers.Commands
 		public async Task<Unit> Handle(DeleteBillCommand request, CancellationToken cancellationToken)
 		{
 			var bill = await _billRepository.GetByIdAsync(request.Id);
+
+			if (bill == null)
+				throw new NotFoundException(nameof(bill), request.Id);
 
 			await _billRepository.DeleteAsync(bill);
 

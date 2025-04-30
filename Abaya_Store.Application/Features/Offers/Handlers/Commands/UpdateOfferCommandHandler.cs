@@ -1,4 +1,5 @@
 ﻿using Abaya_Store.Application.DTOs.Offer.Validator;
+using Abaya_Store.Application.Exceptions;
 using Abaya_Store.Application.Features.Offers.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
 using AutoMapper;
@@ -26,8 +27,9 @@ namespace Abaya_Store.Application.Features.Offers.Handlers.Commands
 			var updateValidator = new OfferUpdateDtoValidator();
 			var updateValidatorResult = updateValidator.Validate(request.updateDto);
 
-			if (!updateValidatorResult.IsValid)
-				throw new Exception(updateValidatorResult.ToString());
+
+			if (updateValidatorResult.IsValid == false)
+				throw new ValidationException(updateValidatorResult);
 
 			var offer = await _offerRepository.GetByIdAsync(request.updateDto.Id);
 

@@ -1,4 +1,5 @@
-﻿using Abaya_Store.Application.Features.CartItems.Requests.Commands;
+﻿using Abaya_Store.Application.Exceptions;
+using Abaya_Store.Application.Features.CartItems.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
 using AutoMapper;
 using MediatR;
@@ -22,6 +23,8 @@ namespace Abaya_Store.Application.Features.CartItems.Handlers.Commands
 		public async Task<Unit> Handle(DeleteCartItemCommand request, CancellationToken cancellationToken)
 		{
 			var cartItem = await _cartItemRepository.GetByIdAsync(request.Id);
+			if (cartItem == null)
+				throw new NotFoundException(nameof(cartItem), request.Id);
 
 			await _cartItemRepository.DeleteAsync(cartItem);
 

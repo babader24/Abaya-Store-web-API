@@ -1,4 +1,5 @@
-﻿using Abaya_Store.Application.Features.NewsletterSubscriptions.Requests.Commands;
+﻿using Abaya_Store.Application.Exceptions;
+using Abaya_Store.Application.Features.NewsletterSubscriptions.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
 using AutoMapper;
 using MediatR;
@@ -23,6 +24,9 @@ namespace Abaya_Store.Application.Features.NewsletterSubscriptions.Handlers.Comm
 		public async Task<Unit> Handle(DeleteNewsletterSubscriptionsCommand request, CancellationToken cancellationToken)
 		{
 			var subscription = await _subscriptionRepository.GetByIdAsync(request.Id);
+
+			if (subscription == null)
+				throw new NotFoundException(nameof(subscription), request.Id);
 
 			await _subscriptionRepository.DeleteAsync(subscription);
 

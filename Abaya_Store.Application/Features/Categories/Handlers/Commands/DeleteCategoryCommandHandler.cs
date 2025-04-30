@@ -1,4 +1,5 @@
-﻿using Abaya_Store.Application.Features.Categories.Requests.Commands;
+﻿using Abaya_Store.Application.Exceptions;
+using Abaya_Store.Application.Features.Categories.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
 using AutoMapper;
 using MediatR;
@@ -23,6 +24,9 @@ namespace Abaya_Store.Application.Features.Categories.Handlers.Commands
 		public async Task<Unit> Handle(DeleteCategoryCommand request, CancellationToken cancellationToken)
 		{
 			var category = await _categoryRepository.GetByIdAsync(request.Id);
+
+			if (category == null)
+				throw new NotFoundException(nameof(category), request.Id);
 
 			await _categoryRepository.DeleteAsync(category);
 

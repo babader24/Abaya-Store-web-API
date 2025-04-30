@@ -1,4 +1,5 @@
-﻿using Abaya_Store.Application.Features.OfferProducts.Requests.Commands;
+﻿using Abaya_Store.Application.Exceptions;
+using Abaya_Store.Application.Features.OfferProducts.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
 using AutoMapper;
 using MediatR;
@@ -23,6 +24,9 @@ namespace Abaya_Store.Application.Features.OfferProducts.Handlers.Commands
 		public async Task<Unit> Handle(DeleteOfferProductCommand request, CancellationToken cancellationToken)
 		{
 			var offerProduct = await _offerProductRepository.GetByIdAsync(request.Id);
+
+			if (offerProduct == null)
+				throw new NotFoundException(nameof(offerProduct), request.Id);
 
 			await _offerProductRepository.DeleteAsync(offerProduct);
 

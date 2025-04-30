@@ -1,4 +1,5 @@
 ﻿using Abaya_Store.Application.DTOs.PaymentTransaction.Validator;
+using Abaya_Store.Application.Exceptions;
 using Abaya_Store.Application.Features.PaymentTransactions.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
 using AutoMapper;
@@ -27,8 +28,8 @@ namespace Abaya_Store.Application.Features.PaymentTransactions.Handlers.Commands
 			var updateValidator = new PaymentTransactionUpdateDtoValidator();
 			var updateResult = updateValidator.Validate(request.updateDto);
 
-			if (!updateResult.IsValid)
-				throw new Exception(updateResult.ToString());
+			if (updateResult.IsValid == false)
+				throw new ValidationException(updateResult);
 
 			var payment = await _paymentTransactionRepository.GetByIdAsync(request.updateDto.Id);
 

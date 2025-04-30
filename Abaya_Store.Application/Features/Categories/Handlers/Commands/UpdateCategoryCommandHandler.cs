@@ -1,4 +1,5 @@
 ﻿using Abaya_Store.Application.DTOs.Category.Validator;
+using Abaya_Store.Application.Exceptions;
 using Abaya_Store.Application.Features.Categories.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
 using AutoMapper;
@@ -26,8 +27,8 @@ namespace Abaya_Store.Application.Features.Categories.Handlers.Commands
 			var validator = new CategoryUpdateDtoValidator();
 			var validatorResult = validator.Validate(request.categoryUpdateDto);
 
-			if (!validatorResult.IsValid)
-				throw new Exception();
+			if (validatorResult.IsValid == false)
+				throw new ValidationException(validatorResult);
 
 			var category = await _categoryRepository.GetByIdAsync(request.categoryUpdateDto.Id);
 

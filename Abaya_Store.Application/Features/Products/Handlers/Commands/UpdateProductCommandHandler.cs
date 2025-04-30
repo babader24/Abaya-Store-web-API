@@ -1,4 +1,5 @@
 ﻿using Abaya_Store.Application.DTOs.Product.Validator;
+using Abaya_Store.Application.Exceptions;
 using Abaya_Store.Application.Features.Products.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
 using AutoMapper;
@@ -26,8 +27,8 @@ namespace Abaya_Store.Application.Features.Products.Handlers.Commands
 			var updateValidator = new ProductUpdateDtoValidator();
 			var updateResult = updateValidator.Validate(request.updateDto);
 
-			if (!updateResult.IsValid)
-				throw new Exception(string.Join("\n", updateResult.Errors));
+			if (updateResult.IsValid == false)
+				throw new ValidationException(updateResult);
 
 			var product = await _productRepository.GetByIdAsync(request.updateDto.Id);
 

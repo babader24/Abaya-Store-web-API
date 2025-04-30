@@ -1,4 +1,5 @@
-﻿using Abaya_Store.Application.Features.OrderDetails.Requests.Commands;
+﻿using Abaya_Store.Application.Exceptions;
+using Abaya_Store.Application.Features.OrderDetails.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
 using AutoMapper;
 using MediatR;
@@ -23,6 +24,9 @@ namespace Abaya_Store.Application.Features.OrderDetails.Handlers.Commands
 		public async Task<Unit> Handle(DeleteOrderDetailCommand request, CancellationToken cancellationToken)
 		{
 			var orderDetail = await _orderDetaileRepository.GetByIdAsync(request.Id);
+
+			if (orderDetail == null)
+				throw new NotFoundException(nameof(orderDetail), request.Id);
 
 			await _orderDetaileRepository.DeleteAsync(orderDetail);
 

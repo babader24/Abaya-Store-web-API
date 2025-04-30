@@ -1,4 +1,5 @@
 ﻿using Abaya_Store.Application.DTOs.OrderDetaile.Validator;
+using Abaya_Store.Application.Exceptions;
 using Abaya_Store.Application.Features.OrderDetails.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
 using AutoMapper;
@@ -26,8 +27,8 @@ namespace Abaya_Store.Application.Features.OrderDetails.Handlers.Commands
 			var updateValidator = new OrderDetailUpdateDtoValidator();
 			var updateResult = updateValidator.Validate(request.updateDto);
 
-			if (!updateResult.IsValid)
-				throw new Exception(updateResult.ToString());
+			if (updateResult.IsValid == false)
+				throw new ValidationException(updateResult);
 
 			var orderDetail = await _orderDetaileRepository.GetByIdAsync(request.updateDto.Id);
 

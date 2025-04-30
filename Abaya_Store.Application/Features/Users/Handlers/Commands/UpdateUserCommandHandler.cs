@@ -1,4 +1,5 @@
 ﻿using Abaya_Store.Application.DTOs.User.Validator;
+using Abaya_Store.Application.Exceptions;
 using Abaya_Store.Application.Features.Users.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
 using AutoMapper;
@@ -23,7 +24,7 @@ namespace Abaya_Store.Application.Features.Users.Handlers.Commands
 			var updateResult = updateValidator.Validate(request.UpdateDto);
 
 			if (!updateResult.IsValid)
-				throw new Exception(string.Join("\n", updateResult.Errors));
+				throw new ValidationException(updateResult);
 
 			var user = await _userRepository.GetByIdAsync(request.UpdateDto.Id);
 

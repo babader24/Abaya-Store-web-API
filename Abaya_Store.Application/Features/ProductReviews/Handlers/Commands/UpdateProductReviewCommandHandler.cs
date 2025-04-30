@@ -1,4 +1,5 @@
 ﻿using Abaya_Store.Application.DTOs.ProductReview.Validator;
+using Abaya_Store.Application.Exceptions;
 using Abaya_Store.Application.Features.ProductReviews.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
 using Abaya_Store.Domain.Entities;
@@ -28,8 +29,8 @@ namespace Abaya_Store.Application.Features.ProductReviews.Handlers.Commands
 			var updateValidator = new ProductReviewUpdateDtoValidator();
 			var updateResult = updateValidator.Validate(request.UpdateDto);
 
-			if (!updateResult.IsValid)
-				throw new Exception(string.Join("\n", updateResult.Errors));
+			if (updateResult.IsValid == false)
+				throw new ValidationException(updateResult);
 
 			var review = await _productReviewRepository.GetByIdAsync(request.UpdateDto.Id);
 

@@ -1,4 +1,5 @@
-﻿using Abaya_Store.Application.Features.Customers.Requests.Commands;
+﻿using Abaya_Store.Application.Exceptions;
+using Abaya_Store.Application.Features.Customers.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
 using AutoMapper;
 using MediatR;
@@ -23,6 +24,9 @@ namespace Abaya_Store.Application.Features.Customers.Handlers.Commands
 		public async Task<Unit> Handle(DeleteCustomerCommand request, CancellationToken cancellationToken)
 		{
 			var customer = await _customerRepository.GetByIdAsync(request.Id);
+
+			if (customer == null)
+				throw new NotFoundException(nameof(customer), request.Id);
 
 			await _customerRepository.DeleteAsync(customer);
 
