@@ -9,7 +9,8 @@ namespace Abaya_Store.Application.Persistence.Contracts
 {
     public interface IGenaricRepository<T> where T : class
     {
-		Task<IReadOnlyList<T>> GetAllAsync();
+		Task<IReadOnlyList<T>> GetAllAsyncReadOnlyList();
+		Task<IEnumerable<T>> GetAllAsync();
 		Task<T> GetByIdAsync(int Id);
 
 		Task<T> AddAsync(T Entity);
