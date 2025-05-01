@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "F:\\My_github_apps\\Abaya_Store\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E4909DB4-7A8E-4843-BD72-AF87AE999C02}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.presistence\\repositories\\genaricrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4909DB4-7A8E-4843-BD72-AF87AE999C02}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|solutionrelative:abaya_store.presistence\\repositories\\genaricrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E4909DB4-7A8E-4843-BD72-AF87AE999C02}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.presistence\\repositories\\auditlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4909DB4-7A8E-4843-BD72-AF87AE999C02}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|solutionrelative:abaya_store.presistence\\repositories\\auditlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\persistence\\contracts\\iorderdetailerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\persistence\\contracts\\iorderdetailerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\persistence\\contracts\\igenaricrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\persistence\\contracts\\igenaricrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4909DB4-7A8E-4843-BD72-AF87AE999C02}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.presistence\\repositories\\genaricrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4909DB4-7A8E-4843-BD72-AF87AE999C02}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|solutionrelative:abaya_store.presistence\\repositories\\genaricrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\features\\wishlists\\handlers\\commands\\createwishlistcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,14 +39,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IGenaricRepository.cs",
-              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Persistence\\Contracts\\IGenaricRepository.cs",
-              "RelativeDocumentMoniker": "Abaya_Store.Application\\Persistence\\Contracts\\IGenaricRepository.cs",
-              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Persistence\\Contracts\\IGenaricRepository.cs",
-              "RelativeToolTip": "Abaya_Store.Application\\Persistence\\Contracts\\IGenaricRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAAAAAAAAAAAA==",
+              "Title": "IOrderDetaileRepository.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Persistence\\Contracts\\IOrderDetaileRepository.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Application\\Persistence\\Contracts\\IOrderDetaileRepository.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Persistence\\Contracts\\IOrderDetaileRepository.cs",
+              "RelativeToolTip": "Abaya_Store.Application\\Persistence\\Contracts\\IOrderDetaileRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T09:17:27.485Z",
+              "WhenOpened": "2025-05-01T14:09:25.391Z",
               "EditorCaption": ""
             },
             {
@@ -48,6 +56,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AuditLogRepository.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Presistence\\Repositories\\AuditLogRepository.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Presistence\\Repositories\\AuditLogRepository.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Presistence\\Repositories\\AuditLogRepository.cs",
+              "RelativeToolTip": "Abaya_Store.Presistence\\Repositories\\AuditLogRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T14:03:49.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IGenaricRepository.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Persistence\\Contracts\\IGenaricRepository.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Application\\Persistence\\Contracts\\IGenaricRepository.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Persistence\\Contracts\\IGenaricRepository.cs",
+              "RelativeToolTip": "Abaya_Store.Application\\Persistence\\Contracts\\IGenaricRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T09:17:27.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "GenaricRepository.cs",
               "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Presistence\\Repositories\\GenaricRepository.cs",
               "RelativeDocumentMoniker": "Abaya_Store.Presistence\\Repositories\\GenaricRepository.cs",
@@ -60,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CreateWishListCommandHandler.cs",
               "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\WishLists\\Handlers\\Commands\\CreateWishListCommandHandler.cs",
               "RelativeDocumentMoniker": "Abaya_Store.Application\\Features\\WishLists\\Handlers\\Commands\\CreateWishListCommandHandler.cs",
@@ -72,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "CreateWishListItemCommandHandler.cs",
               "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\WishListItems\\Handlers\\Commands\\CreateWishListItemCommandHandler.cs",
               "RelativeDocumentMoniker": "Abaya_Store.Application\\Features\\WishListItems\\Handlers\\Commands\\CreateWishListItemCommandHandler.cs",
