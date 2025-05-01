@@ -1,6 +1,7 @@
 ﻿using Abaya_Store.Application.DTOs.Category.Validator;
 using Abaya_Store.Application.Features.Categories.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
+using Abaya_Store.Application.Responses;
 using Abaya_Store.Domain.Entities;
 using AutoMapper;
 using MediatR;
@@ -12,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace Abaya_Store.Application.Features.Categories.Handlers.Commands
 {
-	public class CreateCategoryCommandHandler : IRequestHandler<CreateCategoryCommand, int>
+	public class CreateCategoryCommandHandler : IRequestHandler<CreateCategoryCommand, BaseCommandRespons>
 	{
 		private readonly ICategoryRepository _categoryRepository;
 		private readonly IMapper _mapper;
@@ -22,19 +23,21 @@ namespace Abaya_Store.Application.Features.Categories.Handlers.Commands
 			_categoryRepository = categoryRepository;
 			_mapper = mapper;
 		}
-		public async Task<int> Handle(CreateCategoryCommand request, CancellationToken cancellationToken)
+		public async Task<BaseCommandRespons> Handle(CreateCategoryCommand request, CancellationToken cancellationToken)
 		{
+			var response = new BaseCommandRespons();
 			var validator = new CategoryCreateDtoValidator();
 			var validatorResult = validator.Validate(request.categoryCreateDto);
 
-			if (!validatorResult.IsValid)
-				throw new Exception();
+			if (validatorResult.IsValid == false)
+				response.Failure(validatorResult.Errors.Select(e => e.ErrorMessage).ToList());
 
 			var category = _mapper.Map<Category>(request.categoryCreateDto);
 
 			category = await _categoryRepository.AddAsync(category);
 
-			return category.Id;
+			response.Success(category.Id);
+			return response;
 		}
 	}
 }

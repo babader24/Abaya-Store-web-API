@@ -1,6 +1,7 @@
 ﻿using Abaya_Store.Application.DTOs.OrderDetaile.Validator;
 using Abaya_Store.Application.Features.OrderDetails.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
+using Abaya_Store.Application.Responses;
 using Abaya_Store.Domain.Entities;
 using AutoMapper;
 using MediatR;
@@ -12,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace Abaya_Store.Application.Features.OrderDetails.Handlers.Commands
 {
-	public class CraeteOrderDetailCommandHandler : IRequestHandler<CraeteOrderDetailCommand, int>
+	public class CraeteOrderDetailCommandHandler : IRequestHandler<CraeteOrderDetailCommand, BaseCommandRespons>
 	{
 		private readonly IOrderDetaileRepository _orderDetaileRepository;
 		private readonly IMapper _mapper;
@@ -22,19 +23,21 @@ namespace Abaya_Store.Application.Features.OrderDetails.Handlers.Commands
 			_orderDetaileRepository = orderDetaileRepository;
 			_mapper = mapper;
 		}
-		public async Task<int> Handle(CraeteOrderDetailCommand request, CancellationToken cancellationToken)
+		public async Task<BaseCommandRespons> Handle(CraeteOrderDetailCommand request, CancellationToken cancellationToken)
 		{
+			var response = new BaseCommandRespons();
 			var createValidator = new OrderDetailCreateDtoValidator();
 			var createResult = createValidator.Validate(request.createDto);
 
-			if (!createResult.IsValid)
-				throw new Exception(createResult.ToString());
+			if (createResult.IsValid == false)
+				response.Failure(createResult.Errors.Select(e => e.ErrorMessage).ToList());
 
 			var orderDetail = _mapper.Map<OrderDetaile>(request.createDto);
 
 			orderDetail = await _orderDetaileRepository.AddAsync(orderDetail);
 
-			return orderDetail.Id;
+			response.Success(orderDetail.Id);
+			return response;
 		}
 	}
 }

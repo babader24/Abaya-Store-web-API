@@ -1,4 +1,5 @@
 ﻿using Abaya_Store.Application.DTOs.CartItem;
+using Abaya_Store.Application.Responses;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Abaya_Store.Application.Features.CartItems.Requests.Commands
 {
-    class CreateCartItemCommand : IRequest<int>
+    class CreateCartItemCommand : IRequest<BaseCommandRespons>
     {
 		public  CartItemCreateDto createDto { get; set; }
 	}

@@ -1,6 +1,7 @@
 ﻿using Abaya_Store.Application.DTOs.OfferProduct.Validator;
 using Abaya_Store.Application.Features.OfferProducts.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
+using Abaya_Store.Application.Responses;
 using Abaya_Store.Domain.Entities;
 using AutoMapper;
 using MediatR;
@@ -12,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace Abaya_Store.Application.Features.OfferProducts.Handlers.Commands
 {
-	public class CraeteOfferProductCommandHandler : IRequestHandler<CraeteOfferProductCommand, int>
+	public class CraeteOfferProductCommandHandler : IRequestHandler<CraeteOfferProductCommand, BaseCommandRespons>
 	{
 		private readonly IOfferProductRepository _offerProductRepository;
 		private readonly IMapper _mapper;
@@ -22,19 +23,21 @@ namespace Abaya_Store.Application.Features.OfferProducts.Handlers.Commands
 			_offerProductRepository = offerProductRepository;
 			_mapper = mapper;
 		}
-		public async Task<int> Handle(CraeteOfferProductCommand request, CancellationToken cancellationToken)
+		public async Task<BaseCommandRespons> Handle(CraeteOfferProductCommand request, CancellationToken cancellationToken)
 		{
+			var response = new BaseCommandRespons();
 			var createProductValidator = new OfferProductCreateDtoValidator();
 			var createProductResult = createProductValidator.Validate(request.createDto);
 
-			if (!createProductResult.IsValid)
-				throw new Exception(createProductResult.ToString());
+			if (createProductResult.IsValid == false)
+				response.Failure(createProductResult.Errors.Select(e => e.ErrorMessage).ToList());
 
 			var offerProduct = _mapper.Map<OfferProduct>(request.createDto);
 
 			offerProduct = await _offerProductRepository.AddAsync(offerProduct);
 
-			return offerProduct.Id;
+			response.Success(offerProduct.Id);
+			return response;
 		}
 	}
 }

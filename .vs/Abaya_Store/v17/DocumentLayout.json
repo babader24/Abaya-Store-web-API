@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "F:\\My_github_apps\\Abaya_Store\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\features\\shippinginfos\\handlers\\commands\\updateshippinginfocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\features\\shippinginfos\\handlers\\commands\\updateshippinginfocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\features\\wishlists\\handlers\\commands\\createwishlistcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\features\\wishlists\\handlers\\commands\\createwishlistcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\features\\wishlists\\handlers\\commands\\deletewishlistcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\features\\wishlists\\handlers\\commands\\deletewishlistcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\features\\wishlistitems\\handlers\\commands\\createwishlistitemcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\features\\wishlistitems\\handlers\\commands\\createwishlistitemcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UpdateShippingInfoCommandHandler.cs",
-              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\ShippingInfos\\Handlers\\Commands\\UpdateShippingInfoCommandHandler.cs",
-              "RelativeDocumentMoniker": "Abaya_Store.Application\\Features\\ShippingInfos\\Handlers\\Commands\\UpdateShippingInfoCommandHandler.cs",
-              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\ShippingInfos\\Handlers\\Commands\\UpdateShippingInfoCommandHandler.cs",
-              "RelativeToolTip": "Abaya_Store.Application\\Features\\ShippingInfos\\Handlers\\Commands\\UpdateShippingInfoCommandHandler.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAmwBoAAAAOAAAAAAAAAA==",
+              "Title": "CreateWishListCommandHandler.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\WishLists\\Handlers\\Commands\\CreateWishListCommandHandler.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Application\\Features\\WishLists\\Handlers\\Commands\\CreateWishListCommandHandler.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\WishLists\\Handlers\\Commands\\CreateWishListCommandHandler.cs",
+              "RelativeToolTip": "Abaya_Store.Application\\Features\\WishLists\\Handlers\\Commands\\CreateWishListCommandHandler.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAxwCYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T10:39:22.832Z",
+              "WhenOpened": "2025-05-01T08:27:16.985Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DeleteWishListCommandHandler.cs",
-              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\WishLists\\Handlers\\Commands\\DeleteWishListCommandHandler.cs",
-              "RelativeDocumentMoniker": "Abaya_Store.Application\\Features\\WishLists\\Handlers\\Commands\\DeleteWishListCommandHandler.cs",
-              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\WishLists\\Handlers\\Commands\\DeleteWishListCommandHandler.cs",
-              "RelativeToolTip": "Abaya_Store.Application\\Features\\WishLists\\Handlers\\Commands\\DeleteWishListCommandHandler.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAzAAAAAAAAAA==",
+              "Title": "CreateWishListItemCommandHandler.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\WishListItems\\Handlers\\Commands\\CreateWishListItemCommandHandler.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Application\\Features\\WishListItems\\Handlers\\Commands\\CreateWishListItemCommandHandler.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Features\\WishListItems\\Handlers\\Commands\\CreateWishListItemCommandHandler.cs",
+              "RelativeToolTip": "Abaya_Store.Application\\Features\\WishListItems\\Handlers\\Commands\\CreateWishListItemCommandHandler.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwCgAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T10:38:50.017Z",
+              "WhenOpened": "2025-05-01T08:25:54.425Z",
               "EditorCaption": ""
             },
             {

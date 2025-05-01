@@ -24,7 +24,7 @@ namespace Abaya_Store.Application.Features.WishLists.Handlers.Commands
 			if (wishList == null)
 				throw new NotFoundException(nameof(wishList), request.Id);
 
-			await _wishListRepository.DeleteAsync(wishList);
+			await _wishListRepository.DeleteAsync(wishList); 
 			return Unit.Value;
 		}
 	}

@@ -1,6 +1,7 @@
 ﻿using Abaya_Store.Application.DTOs.Product.Validator;
 using Abaya_Store.Application.Features.Products.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
+using Abaya_Store.Application.Responses;
 using Abaya_Store.Domain.Entities;
 using AutoMapper;
 using MediatR;
@@ -12,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace Abaya_Store.Application.Features.Products.Handlers.Commands
 {
-	public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand, int>
+	public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand, BaseCommandRespons>
 	{
 		private readonly IProductRepository _productRepository;
 		private readonly IMapper _mapper;
@@ -22,20 +23,22 @@ namespace Abaya_Store.Application.Features.Products.Handlers.Commands
 			_productRepository = productRepository;
 			_mapper = mapper;
 		}
-		public async Task<int> Handle(CreateProductCommand request, CancellationToken cancellationToken)
+		public async Task<BaseCommandRespons> Handle(CreateProductCommand request, CancellationToken cancellationToken)
 		{
+			var response = new BaseCommandRespons();
 			var createValidator = new ProductCreateDtoValidator();
 			var createResult = createValidator.Validate(request.createDto);
 
-			if (!createResult.IsValid)
-				throw new Exception(string.Join("\n", createResult.Errors));
+			if (createResult.IsValid == false)
+				response.Failure(createResult.Errors.Select(e => e.ErrorMessage).ToList());
 
 
 			var product = _mapper.Map<Product>(request.createDto);
 
 			product = await _productRepository.AddAsync(product);
 
-			return product.Id;
+			response.Success(product.Id);
+			return response;
 		}
 	}
 }

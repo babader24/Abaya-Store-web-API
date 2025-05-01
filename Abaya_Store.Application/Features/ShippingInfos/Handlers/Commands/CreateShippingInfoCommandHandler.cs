@@ -1,6 +1,7 @@
 ﻿using Abaya_Store.Application.DTOs.ShippingInfo.Validator;
 using Abaya_Store.Application.Features.ShippingInfos.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
+using Abaya_Store.Application.Responses;
 using Abaya_Store.Domain.Entities;
 using AutoMapper;
 using MediatR;
@@ -12,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace Abaya_Store.Application.Features.ShippingInfos.Handlers.Commands
 {
-	public class CreateShippingInfoCommandHandler : IRequestHandler<CreateShippingInfoCommand, int>
+	public class CreateShippingInfoCommandHandler : IRequestHandler<CreateShippingInfoCommand, BaseCommandRespons>
 	{
 		private readonly IShippingInfoRepository _shippingInfoRepository;
 		private readonly IMapper _mapper;
@@ -23,17 +24,20 @@ namespace Abaya_Store.Application.Features.ShippingInfos.Handlers.Commands
 			_mapper = mapper;
 		}
 
-		public async Task<int> Handle(CreateShippingInfoCommand request, CancellationToken cancellationToken)
+		public async Task<BaseCommandRespons> Handle(CreateShippingInfoCommand request, CancellationToken cancellationToken)
 		{
+			var response = new BaseCommandRespons();
 			var createValidator = new ShippingInfoCreateDtoValidator();
 			var createResult = createValidator.Validate(request.createDto);
 
-			if (!createResult.IsValid)
-				throw new Exception(string.Join("\n", createResult.Errors));
+			if (createResult.IsValid == false)
+				response.Failure(createResult.Errors.Select(e => e.ErrorMessage).ToList());
 
 			var shippingInfo = _mapper.Map<ShippingInfo>(request.createDto);
 			shippingInfo = await _shippingInfoRepository.AddAsync(shippingInfo);
-			return shippingInfo.Id;
+
+			response.Success(shippingInfo.Id);
+			return response;
 		}
 	}
 }

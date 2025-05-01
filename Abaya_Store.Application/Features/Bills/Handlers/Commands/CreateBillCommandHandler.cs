@@ -1,6 +1,7 @@
 ﻿using Abaya_Store.Application.DTOs.Bill.Validators;
 using Abaya_Store.Application.Features.Bills.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
+using Abaya_Store.Application.Responses;
 using Abaya_Store.Domain.Entities;
 using AutoMapper;
 using MediatR;
@@ -12,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace Abaya_Store.Application.Features.Bills.Handlers.Commands
 {
-	class CreateBillCommandHandler : IRequestHandler<CreateBillCommand, int>
+	class CreateBillCommandHandler : IRequestHandler<CreateBillCommand, BaseCommandRespons>
 	{
 		private readonly IBillRepository _billRepository;
 		private readonly IMapper _mapper;
@@ -22,19 +23,21 @@ namespace Abaya_Store.Application.Features.Bills.Handlers.Commands
 			_billRepository = billRepository;
 			_mapper = mapper;
 		}
-		public async Task<int> Handle(CreateBillCommand request, CancellationToken cancellationToken)
+		public async Task<BaseCommandRespons> Handle(CreateBillCommand request, CancellationToken cancellationToken)
 		{
+			var response = new BaseCommandRespons();
 			var validator = new CreateBillDtoValidator();
+
 			var validatorResult = validator.Validate(request.BillDto);
 
 			if (validatorResult.IsValid == false)
-				throw new Exception();
+				response.Failure(validatorResult.Errors.Select(e => e.ErrorMessage).ToList());
 
 			var bill = _mapper.Map<Bill>(request.BillDto);
-
 			bill = await _billRepository.AddAsync(bill);
 
-			return bill.Id;
+			response.Success(bill.Id);
+			return response;
 		}
 	}
 }

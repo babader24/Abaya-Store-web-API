@@ -1,6 +1,7 @@
 ﻿using Abaya_Store.Application.DTOs.WishListItem.Validator;
 using Abaya_Store.Application.Features.WishListItems.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
+using Abaya_Store.Application.Responses;
 using Abaya_Store.Domain.Entities;
 using AutoMapper;
 using MediatR;
@@ -12,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace Abaya_Store.Application.Features.WishListItems.Handlers.Commands
 {
-	public class CreateWishListItemCommandHandler : IRequestHandler<CreateWishListItemCommand, int>
+	public class CreateWishListItemCommandHandler : IRequestHandler<CreateWishListItemCommand, BaseCommandRespons>
 	{
 		private readonly IWishListItemRepository _wishListItemRepository;
 		private readonly IMapper _mapper;
@@ -23,19 +24,22 @@ namespace Abaya_Store.Application.Features.WishListItems.Handlers.Commands
 			_mapper = mapper;
 		}
 
-		public async Task<int> Handle(CreateWishListItemCommand request, CancellationToken cancellationToken)
+		public async Task<BaseCommandRespons> Handle(CreateWishListItemCommand request, CancellationToken cancellationToken)
 		{
+			var response = new BaseCommandRespons();
 			var createValidator = new WishListItemCreateDtoValidator();
 			var createResult = createValidator.Validate(request.CreateDto);
 
-			if (!createResult.IsValid)
-				throw new Exception(string.Join("\n", createResult.Errors));
+			if (createResult.IsValid == false)
+				response.Failure(createResult.Errors.Select(e => e.ErrorMessage).ToList());
 
 			var wishListItem = _mapper.Map<WishListItem>(request.CreateDto);
 		
 
 			wishListItem = await _wishListItemRepository.AddAsync(wishListItem);
-			return wishListItem.Id;
+
+			response.Success(wishListItem.Id);
+			return response;
 		}
 	}
 }

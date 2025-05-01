@@ -1,6 +1,7 @@
 ﻿using Abaya_Store.Application.DTOs.PaymentTransaction.Validator;
 using Abaya_Store.Application.Features.PaymentTransactions.Requests.Commands;
 using Abaya_Store.Application.Persistence.Contracts;
+using Abaya_Store.Application.Responses;
 using Abaya_Store.Domain.Entities;
 using AutoMapper;
 using MediatR;
@@ -12,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace Abaya_Store.Application.Features.PaymentTransactions.Handlers.Commands
 {
-	public class CreatePaymentTransactionCommandHandler : IRequestHandler<CreatePaymentTransactionCommand, int>
+	public class CreatePaymentTransactionCommandHandler : IRequestHandler<CreatePaymentTransactionCommand, BaseCommandRespons>
 	{
 		private readonly IPaymentTransactionRepository _paymentTransactionRepository;
 		private readonly IMapper _mapper;
@@ -23,19 +24,21 @@ namespace Abaya_Store.Application.Features.PaymentTransactions.Handlers.Commands
 			_mapper = mapper;
 		}
 
-		public async Task<int> Handle(CreatePaymentTransactionCommand request, CancellationToken cancellationToken)
+		public async Task<BaseCommandRespons> Handle(CreatePaymentTransactionCommand request, CancellationToken cancellationToken)
 		{
+			var response = new BaseCommandRespons();
 			var createValidator = new PaymentTransactionCreateDtoValidator();
 			var createResult = createValidator.Validate(request.createDto);
 
-			if (!createResult.IsValid)
-				throw new Exception(createResult.ToString());
+			if (createResult.IsValid == false)
+				response.Failure(createResult.Errors.Select(e => e.ErrorMessage).ToList());
 
 			var payment = _mapper.Map<PaymentTransaction>(request.createDto);
 
 			payment = await _paymentTransactionRepository.AddAsync(payment);
 
-			return payment.Id;
+			response.Success(payment.Id);
+			return response;
 		}
 	}
 }

@@ -1,4 +1,5 @@
 ﻿using Abaya_Store.Application.DTOs.NewsletterSubscription;
+using Abaya_Store.Application.Responses;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Abaya_Store.Application.Features.NewsletterSubscriptions.Requests.Commands
 {
-    public class CreateNewsletterSubscriptionsCommand : IRequest<int>
+    public class CreateNewsletterSubscriptionsCommand : IRequest<BaseCommandRespons>
     {
 		public NewsletterSubscriptionCreateDto newsletterSubscription { get; set; }
 	}
