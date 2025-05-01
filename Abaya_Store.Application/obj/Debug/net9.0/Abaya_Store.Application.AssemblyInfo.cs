@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Abaya_Store.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09e51ea5967750612d007223ead1adcb3fbbab3a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ee3c56ff20a78e85305241ce6e83dc99b122981")]
 [assembly: System.Reflection.AssemblyProductAttribute("Abaya_Store.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Abaya_Store.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
