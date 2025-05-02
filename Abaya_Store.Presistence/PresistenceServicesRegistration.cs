@@ -1,4 +1,4 @@
-﻿using Abaya_Store.Application.Persistence.Contracts;
+﻿using Abaya_Store.Application.Contracts.Persistence;
 using Abaya_Store.Persistence;
 using Abaya_Store.Presistence.Repositories;
 using Microsoft.EntityFrameworkCore;

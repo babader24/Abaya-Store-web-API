@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "F:\\My_github_apps\\Abaya_Store\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4909DB4-7A8E-4843-BD72-AF87AE999C02}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.presistence\\presistenceservicesregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4909DB4-7A8E-4843-BD72-AF87AE999C02}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|solutionrelative:abaya_store.presistence\\presistenceservicesregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{430A54A5-26B7-45F9-BE57-B137B3C5BED9}|Abaya_Store.Infrastructure\\Abaya_Store.Infrastructure.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.infrastructure\\mail\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{430A54A5-26B7-45F9-BE57-B137B3C5BED9}|Abaya_Store.Infrastructure\\Abaya_Store.Infrastructure.csproj|solutionrelative:abaya_store.infrastructure\\mail\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\model\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\model\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\model\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\model\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya_store\\abaya_store.application\\contracts\\infrastructture\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D342D12A-391D-4A7A-B1B4-7D716238A763}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\contracts\\infrastructture\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PresistenceServicesRegistration.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Presistence\\PresistenceServicesRegistration.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Presistence\\PresistenceServicesRegistration.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Presistence\\PresistenceServicesRegistration.cs",
+              "RelativeToolTip": "Abaya_Store.Presistence\\PresistenceServicesRegistration.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwAAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T17:47:37.517Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Infrastructure\\Mail\\EmailSender.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Infrastructure\\Mail\\EmailSender.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Infrastructure\\Mail\\EmailSender.cs",
+              "RelativeToolTip": "Abaya_Store.Infrastructure\\Mail\\EmailSender.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwCQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T17:12:44.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmailSettings.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Model\\EmailSettings.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Application\\Model\\EmailSettings.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Model\\EmailSettings.cs",
+              "RelativeToolTip": "Abaya_Store.Application\\Model\\EmailSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T14:43:44.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Email.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Model\\Email.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Application\\Model\\Email.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Model\\Email.cs",
+              "RelativeToolTip": "Abaya_Store.Application\\Model\\Email.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T14:42:14.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IEmailSender.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Contracts\\Infrastructture\\IEmailSender.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Application\\Contracts\\Infrastructture\\IEmailSender.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Application\\Contracts\\Infrastructture\\IEmailSender.cs",
+              "RelativeToolTip": "Abaya_Store.Application\\Contracts\\Infrastructture\\IEmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T14:38:51.356Z",
+              "EditorCaption": ""
             }
           ]
         }
