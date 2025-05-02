@@ -1,5 +1,5 @@
 ﻿using Abaya_Store.Application.Features.NewsletterSubscriptions.Requests.Commands;
-using Abaya_Store.Application.Persistence.Contracts;
+using Abaya_Store.Application.Contracts.Persistence;
 using AutoMapper;
 using MediatR;
 using System;

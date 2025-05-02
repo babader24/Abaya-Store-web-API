@@ -1,6 +1,6 @@
 ﻿using Abaya_Store.Application.DTOs.AuditLog;
 using Abaya_Store.Application.Features.AuditLogs.Requests.Queries;
-using Abaya_Store.Application.Persistence.Contracts;
+using Abaya_Store.Application.Contracts.Persistence;
 using AutoMapper;
 using MediatR;
 using System;

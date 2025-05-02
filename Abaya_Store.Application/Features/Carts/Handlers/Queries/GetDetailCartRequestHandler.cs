@@ -1,6 +1,6 @@
 ﻿using Abaya_Store.Application.DTOs.Cart;
 using Abaya_Store.Application.Features.Carts.Requests.Queries;
-using Abaya_Store.Application.Persistence.Contracts;
+using Abaya_Store.Application.Contracts.Persistence;
 using AutoMapper;
 using MediatR;
 using System;

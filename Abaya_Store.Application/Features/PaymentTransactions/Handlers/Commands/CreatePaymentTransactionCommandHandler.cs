@@ -1,6 +1,6 @@
 ﻿using Abaya_Store.Application.DTOs.PaymentTransaction.Validator;
 using Abaya_Store.Application.Features.PaymentTransactions.Requests.Commands;
-using Abaya_Store.Application.Persistence.Contracts;
+using Abaya_Store.Application.Contracts.Persistence;
 using Abaya_Store.Application.Responses;
 using Abaya_Store.Domain.Entities;
 using AutoMapper;

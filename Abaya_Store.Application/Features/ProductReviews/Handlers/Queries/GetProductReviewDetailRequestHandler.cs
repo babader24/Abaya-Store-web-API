@@ -1,6 +1,6 @@
 ﻿using Abaya_Store.Application.DTOs.ProductReview;
 using Abaya_Store.Application.Features.ProductReviews.Requests.Queries;
-using Abaya_Store.Application.Persistence.Contracts;
+using Abaya_Store.Application.Contracts.Persistence;
 using AutoMapper;
 using MediatR;
 

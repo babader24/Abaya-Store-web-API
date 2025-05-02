@@ -1,5 +1,5 @@
 ﻿using Abaya_Store.Application.Features.AuditLogs.Requests.Commands;
-using Abaya_Store.Application.Persistence.Contracts;
+using Abaya_Store.Application.Contracts.Persistence;
 using Abaya_Store.Domain.Entities;
 using AutoMapper;
 using MediatR;

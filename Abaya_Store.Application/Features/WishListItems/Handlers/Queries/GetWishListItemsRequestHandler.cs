@@ -1,6 +1,6 @@
 ﻿using Abaya_Store.Application.DTOs.WishListItem;
 using Abaya_Store.Application.Features.WishListItems.Requests.Queries;
-using Abaya_Store.Application.Persistence.Contracts;
+using Abaya_Store.Application.Contracts.Persistence;
 using AutoMapper;
 using MediatR;
 using System;

@@ -1,7 +1,7 @@
 ﻿using Abaya_Store.Application.DTOs.OfferProduct.Validator;
 using Abaya_Store.Application.Exceptions;
 using Abaya_Store.Application.Features.OfferProducts.Requests.Commands;
-using Abaya_Store.Application.Persistence.Contracts;
+using Abaya_Store.Application.Contracts.Persistence;
 using AutoMapper;
 using MediatR;
 using System;
