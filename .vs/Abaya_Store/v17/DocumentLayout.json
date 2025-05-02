@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "Abaya_Store.Infrastructure\\InfrastructureServicesRegistration.cs",
               "ToolTip": "F:\\My_github_apps\\Abaya_Store\\Abaya_Store.Infrastructure\\InfrastructureServicesRegistration.cs",
               "RelativeToolTip": "Abaya_Store.Infrastructure\\InfrastructureServicesRegistration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T17:52:51.12Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "Abaya_Store.Infrastructure\\Mail\\EmailSender.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAQwCQAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T17:12:44.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T17:12:44.221Z"
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "Abaya_Store.Application\\Model\\EmailSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T14:43:44.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T14:43:44.993Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "Abaya_Store.Application\\Model\\Email.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T14:42:14.51Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T14:42:14.51Z"
             },
             {
               "$type": "Document",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "Abaya_Store.Application\\Contracts\\Infrastructture\\IEmailSender.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T14:38:51.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T14:38:51.356Z"
             }
           ]
         }
