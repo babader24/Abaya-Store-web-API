@@ -17,7 +17,7 @@ namespace Abaya_Store.Presistence
 		public static IServiceCollection ConfigurePresistenceServices(this IServiceCollection services, IConfiguration configuration)
 		{
 			services.AddDbContext<AppDbContext>(options =>
-			options.UseSqlServer(configuration.GetConnectionString("AbayaStoreDB")));
+			options.UseSqlServer(configuration.GetConnectionString("constr")));
 
 
 			services.AddScoped(typeof(IGenaricRepository<>), typeof(GenaricRepository<>));

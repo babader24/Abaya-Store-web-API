@@ -15,7 +15,7 @@ namespace Abaya_Store.Presistence
 				.Build();
 
 			var builder = new DbContextOptionsBuilder<AppDbContext>();
-			var connecttionString = configuration.GetConnectionString("AbayaStoreDB");
+			var connecttionString = configuration.GetConnectionString("constr");
 
 			builder.UseSqlServer(connecttionString);
 

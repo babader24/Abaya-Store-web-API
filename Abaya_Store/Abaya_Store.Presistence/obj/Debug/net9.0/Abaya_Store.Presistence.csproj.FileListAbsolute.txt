@@ -16,3 +16,5 @@ F:\My_github_apps\Abaya Store\Abaya_Store\Abaya_Store.Presistence\obj\Debug\net9
 F:\My_github_apps\Abaya Store\Abaya_Store\Abaya_Store.Presistence\obj\Debug\net9.0\refint\Abaya_Store.Presistence.dll
 F:\My_github_apps\Abaya Store\Abaya_Store\Abaya_Store.Presistence\obj\Debug\net9.0\Abaya_Store.Presistence.pdb
 F:\My_github_apps\Abaya Store\Abaya_Store\Abaya_Store.Presistence\obj\Debug\net9.0\ref\Abaya_Store.Presistence.dll
+F:\My_github_apps\Abaya Store\Abaya_Store\Abaya_Store.Presistence\bin\Debug\net9.0\Abaya_Store.Presistence.runtimeconfig.json
+F:\My_github_apps\Abaya Store\Abaya_Store\Abaya_Store.Presistence\obj\Debug\net9.0\Abaya_Store.Presistence.genruntimeconfig.cache
