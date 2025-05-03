@@ -31,7 +31,17 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Application\\Abaya_Store.Application.csproj": {
+                "projectPath": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Application\\Abaya_Store.Application.csproj"
+              },
+              "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Infrastructure\\Abaya_Store.Infrastructure.csproj": {
+                "projectPath": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Infrastructure\\Abaya_Store.Infrastructure.csproj"
+              },
+              "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj": {
+                "projectPath": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -70,6 +80,320 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Application\\Abaya_Store.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Application\\Abaya_Store.Application.csproj",
+        "projectName": "Abaya_Store.Application",
+        "projectPath": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Application\\Abaya_Store.Application.csproj",
+        "packagesPath": "C:\\Users\\Ahmed babeder\\.nuget\\packages\\",
+        "outputPath": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ahmed babeder\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Domain\\Abaya_Store.Domain.csproj": {
+                "projectPath": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Domain\\Abaya_Store.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Domain\\Abaya_Store.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Domain\\Abaya_Store.Domain.csproj",
+        "projectName": "Abaya_Store.Domain",
+        "projectPath": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Domain\\Abaya_Store.Domain.csproj",
+        "packagesPath": "C:\\Users\\Ahmed babeder\\.nuget\\packages\\",
+        "outputPath": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ahmed babeder\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Infrastructure\\Abaya_Store.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Infrastructure\\Abaya_Store.Infrastructure.csproj",
+        "projectName": "Abaya_Store.Infrastructure",
+        "projectPath": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Infrastructure\\Abaya_Store.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Ahmed babeder\\.nuget\\packages\\",
+        "outputPath": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ahmed babeder\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Application\\Abaya_Store.Application.csproj": {
+                "projectPath": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Application\\Abaya_Store.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.29.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj",
+        "projectName": "Abaya_Store.Presistence",
+        "projectPath": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj",
+        "packagesPath": "C:\\Users\\Ahmed babeder\\.nuget\\packages\\",
+        "outputPath": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ahmed babeder\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Application\\Abaya_Store.Application.csproj": {
+                "projectPath": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Application\\Abaya_Store.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

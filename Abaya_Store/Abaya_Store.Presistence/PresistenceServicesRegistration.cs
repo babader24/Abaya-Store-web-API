@@ -2,7 +2,6 @@
 using Abaya_Store.Persistence;
 using Abaya_Store.Presistence.Repositories;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -15,7 +14,7 @@ namespace Abaya_Store.Presistence
 {
     public static class PresistenceServicesRegistration
     {
-		public static IServiceCollection ConfigureApplicationServices(this IServiceCollection services, IConfiguration configuration)
+		public static IServiceCollection ConfigurePresistenceServices(this IServiceCollection services, IConfiguration configuration)
 		{
 			services.AddDbContext<AppDbContext>(options =>
 			options.UseSqlServer(configuration.GetConnectionString("AbayaStoreDB")));
@@ -44,23 +43,5 @@ namespace Abaya_Store.Presistence
 			return services;
 		}
 
-	}
-
-	public class AppDbContextFactory : IDesignTimeDbContextFactory<AppDbContext>
-	{
-		public AppDbContext CreateDbContext(string[] args)
-		{
-			IConfigurationRoot configuration = new ConfigurationBuilder()
-				.SetBasePath(Directory.GetCurrentDirectory())
-				.AddJsonFile("appsettings.json")
-				.Build();
-
-			var builder = new DbContextOptionsBuilder<AppDbContext>();
-			var connecttionString = configuration.GetConnectionString("AbayaStoreDB");
-
-			builder.UseSqlServer(connecttionString);
-
-			return new AppDbContext(builder.Options);
-		}
 	}
 }

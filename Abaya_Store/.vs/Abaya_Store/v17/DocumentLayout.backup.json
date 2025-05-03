@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FC0CD227-AA7E-4776-A87F-A8911CE5F423}|Abaya_Store.API\\Abaya_Store.API.csproj|f:\\my_github_apps\\abaya store\\abaya_store\\abaya_store.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC0CD227-AA7E-4776-A87F-A8911CE5F423}|Abaya_Store.API\\Abaya_Store.API.csproj|solutionrelative:abaya_store.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5937773F-66EB-46DF-9785-02A481CC6BA0}|Abaya_Store.Infrastructure\\Abaya_Store.Infrastructure.csproj|f:\\my_github_apps\\abaya store\\abaya_store\\abaya_store.infrastructure\\infrastructureservicesregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5937773F-66EB-46DF-9785-02A481CC6BA0}|Abaya_Store.Infrastructure\\Abaya_Store.Infrastructure.csproj|solutionrelative:abaya_store.infrastructure\\infrastructureservicesregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|f:\\my_github_apps\\abaya store\\abaya_store\\abaya_store.presistence\\presistenceservicesregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|solutionrelative:abaya_store.presistence\\presistenceservicesregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,24 +22,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PresistenceServicesRegistration.cs",
-              "DocumentMoniker": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\PresistenceServicesRegistration.cs",
-              "RelativeDocumentMoniker": "Abaya_Store.Presistence\\PresistenceServicesRegistration.cs",
-              "ToolTip": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\PresistenceServicesRegistration.cs",
-              "RelativeToolTip": "Abaya_Store.Presistence\\PresistenceServicesRegistration.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAcwD4AAAAsAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "InfrastructureServicesRegistration.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Infrastructure\\InfrastructureServicesRegistration.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Infrastructure\\InfrastructureServicesRegistration.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Infrastructure\\InfrastructureServicesRegistration.cs",
+              "RelativeToolTip": "Abaya_Store.Infrastructure\\InfrastructureServicesRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T17:44:20.298Z",
+              "WhenOpened": "2025-05-03T18:13:52.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.API\\Program.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.API\\Program.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.API\\Program.cs",
+              "RelativeToolTip": "Abaya_Store.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T18:08:10.143Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PresistenceServicesRegistration.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\PresistenceServicesRegistration.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Presistence\\PresistenceServicesRegistration.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\PresistenceServicesRegistration.cs",
+              "RelativeToolTip": "Abaya_Store.Presistence\\PresistenceServicesRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T17:44:20.298Z",
+              "EditorCaption": ""
             }
           ]
         }
