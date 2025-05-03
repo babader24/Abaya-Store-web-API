@@ -1,6 +1,0 @@
-@Abaya_Store_HostAddress = http://localhost:5129
-
-GET {{Abaya_Store_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

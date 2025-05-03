@@ -1,8 +1,0 @@
-F:\My_github_apps\Abaya_Store\obj\Debug\net9.0\Abaya_Store.csproj.AssemblyReference.cache
-F:\My_github_apps\Abaya_Store\obj\Debug\net9.0\Abaya_Store.GeneratedMSBuildEditorConfig.editorconfig
-F:\My_github_apps\Abaya_Store\obj\Debug\net9.0\Abaya_Store.AssemblyInfoInputs.cache
-F:\My_github_apps\Abaya_Store\obj\Debug\net9.0\Abaya_Store.AssemblyInfo.cs
-F:\My_github_apps\Abaya_Store\obj\Debug\net9.0\Abaya_Store.csproj.CoreCompileInputs.cache
-F:\My_github_apps\Abaya_Store\obj\Debug\net9.0\Abaya_Store.MvcApplicationPartsAssemblyInfo.cs
-F:\My_github_apps\Abaya_Store\obj\Debug\net9.0\Abaya_Store.MvcApplicationPartsAssemblyInfo.cache
-F:\My_github_apps\Abaya_Store\obj\Debug\net9.0\Abaya_Store.sourcelink.json
