@@ -1,6 +1,7 @@
 ﻿using Abaya_Store.Application.DTOs.Bill;
 using Abaya_Store.Application.Features.Bills.Requests.Commands;
 using Abaya_Store.Application.Features.Bills.Requests.Queries;
+using Abaya_Store.Domain.Entities;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
