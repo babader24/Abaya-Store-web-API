@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FC0CD227-AA7E-4776-A87F-A8911CE5F423}|Abaya_Store.API\\Abaya_Store.API.csproj|f:\\my_github_apps\\abaya store\\abaya_store\\abaya_store.api\\controllers\\billcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC0CD227-AA7E-4776-A87F-A8911CE5F423}|Abaya_Store.API\\Abaya_Store.API.csproj|solutionrelative:abaya_store.api\\controllers\\billcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58D6B5F4-D31C-4395-8C4D-A2A0FEF31866}|Abaya_Store.Application\\Abaya_Store.Application.csproj|f:\\my_github_apps\\abaya store\\abaya_store\\abaya_store.application\\dtos\\category\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58D6B5F4-D31C-4395-8C4D-A2A0FEF31866}|Abaya_Store.Application\\Abaya_Store.Application.csproj|solutionrelative:abaya_store.application\\dtos\\category\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,24 +14,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategoryDto.cs",
-              "DocumentMoniker": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Application\\DTOs\\Category\\CategoryDto.cs",
-              "RelativeDocumentMoniker": "Abaya_Store.Application\\DTOs\\Category\\CategoryDto.cs",
-              "ToolTip": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Application\\DTOs\\Category\\CategoryDto.cs",
-              "RelativeToolTip": "Abaya_Store.Application\\DTOs\\Category\\CategoryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T06:08:16.255Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -45,7 +28,7 @@
               "RelativeDocumentMoniker": "Abaya_Store.API\\Controllers\\BillController.cs",
               "ToolTip": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.API\\Controllers\\BillController.cs",
               "RelativeToolTip": "Abaya_Store.API\\Controllers\\BillController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAADwv0IAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAmwEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-05T17:14:55.977Z",
               "EditorCaption": ""
