@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Abaya_Store.Application.Features.CartItems.Requests.Commands
 {
-    class CreateCartItemCommand : IRequest<BaseCommandRespons>
+    public class CreateCartItemCommand : IRequest<BaseCommandRespons>
     {
 		public  CartItemCreateDto createDto { get; set; }
 	}

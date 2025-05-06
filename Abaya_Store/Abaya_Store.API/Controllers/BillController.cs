@@ -10,10 +10,10 @@ using System.Threading.Tasks;
 
 namespace Abaya_Store.API.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class BillController : ControllerBase
-    {
+	[Route("api/[controller]")]
+	[ApiController]
+	public class BillController : ControllerBase
+	{
 		private readonly IMediator _mediator;
 
 		public BillController(IMediator mediator)
@@ -22,46 +22,46 @@ namespace Abaya_Store.API.Controllers
 		}
 		// GET: api/<BillController>
 		[HttpGet]
-        public async Task<ActionResult<List<BillDto>>> Get()
-        {
-            var bill = await _mediator.Send(new GetBillListRequest());
-            return Ok(bill);
-        }
+		public async Task<ActionResult<List<BillDto>>> Get()
+		{
+			var bill = await _mediator.Send(new GetBillListRequest());
+			return Ok(bill);
+		}
 
-        // GET api/<BillController>/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<BillDto>> Get(int id)
-        {
-            var bill = await _mediator.Send(new GetBillDetailRequest { Id = id});
-            return Ok(bill);
-        }
+		// GET api/<BillController>/5
+		[HttpGet("{id}")]
+		public async Task<ActionResult<BillDto>> Get(int id)
+		{
+			var bill = await _mediator.Send(new GetBillDetailRequest { Id = id });
+			return Ok(bill);
+		}
 
-        // POST api/<BillController>
-        [HttpPost]
-        public async Task<ActionResult> Post([FromBody] CreateBillDto createBillDto)
-        {
-            var command = new CreateBillCommand { BillDto = createBillDto };
-            var response = await _mediator.Send(command);
-            return Ok(response);
+		// POST api/<BillController>
+		[HttpPost]
+		public async Task<ActionResult> Post([FromBody] CreateBillDto createBillDto)
+		{
+			var command = new CreateBillCommand { BillDto = createBillDto };
+			var response = await _mediator.Send(command);
+			return Ok(response);
 
 		}
 
-        // PUT api/<BillController>/5
-        [HttpPut("{id}")]
-        public async Task<ActionResult> Put(int id, [FromBody] UpdateBillDto billDto)
+		// PUT api/<BillController>/5
+		[HttpPut("{id}")]
+		public async Task<ActionResult> Put(int id, [FromBody] UpdateBillDto billDto)
 		{
 			var command = new UpdateBillCommand { UpdateBillDto = billDto };
 			await _mediator.Send(command);
-            return NoContent();
+			return NoContent();
 		}
 
-        // DELETE api/<BillController>/5
-        [HttpDelete("{id}")]
-        public async Task<ActionResult> Delete(int id)
+		// DELETE api/<BillController>/5
+		[HttpDelete("{id}")]
+		public async Task<ActionResult> Delete(int id)
 		{
-			var command = new DeleteBillCommand {Id = id};
+			var command = new DeleteBillCommand { Id = id };
 			await _mediator.Send(command);
 			return NoContent();
 		}
-    }
+	}
 }
