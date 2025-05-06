@@ -18,6 +18,11 @@ namespace AbayaStore.Configurations
 				   .HasForeignKey(op => op.ProductId);
 
 			builder.ToTable("OfferProducts");
+
+			builder.HasData(
+				new OfferProduct { Id = 1, OfferId = 1, ProductId = 1 },
+				new OfferProduct { Id = 2, OfferId = 2, ProductId = 2 });
+
 		}
 	}
 }

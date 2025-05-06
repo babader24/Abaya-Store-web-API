@@ -24,7 +24,19 @@ public class NewsletterSubscriptionConfiguration : IEntityTypeConfiguration<News
 		builder.HasOne(n => n.Customer)
 			.WithMany(c => c.NewsletterSubscriptions) 
 			.HasForeignKey(n => n.CustomerId)
-			.OnDelete(DeleteBehavior.SetNull); 
+			.OnDelete(DeleteBehavior.SetNull);
+
+		builder.HasData(
+			new NewsletterSubscription
+			{
+				Id = 1,
+				CustomerId = 1,
+				Email = "alice@example.com",
+				SubscribedAt = DateTime.Now,
+				IsActive = true
+			});
+
+
 	}
 }
 

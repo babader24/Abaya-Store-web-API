@@ -21,6 +21,32 @@ namespace AbayaStore.Configurations
 
 			builder.ToTable("Products");
 
+			builder.HasData(
+	new Product
+	{
+		Id = 1,
+		Name = "Smartphone",
+		Image = "smartphone.jpg",
+		UnitPrice = 599.99m,
+		Description = "Latest model",
+		CategoryId = 1,
+		Size = "Medium",
+		QuantityAvailable = 100
+	},
+	new Product
+	{
+		Id = 2,
+		Name = "T-Shirt",
+		Image = "tshirt.jpg",
+		UnitPrice = 19.99m,
+		Description = "Cotton",
+		CategoryId = 2,
+		Size = "L",
+		QuantityAvailable = 200
+	}
+	);
+
+
 		}
 	}
 }

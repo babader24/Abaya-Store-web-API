@@ -27,6 +27,25 @@ namespace AbayaStore.Configurations
 				   .HasForeignKey(r => r.CustomerId);
 
 			builder.ToTable("Customers");
+
+			builder.HasData(
+	new Customer
+	{
+		Id = 1,
+		FirstName = "Ali",
+		LastName = "Ahmed",
+		Email = "ali@example.com",
+		Phone = "777777777",
+		Address = "Aden",
+		Password = "hashedpassword",
+		Role = 0,
+		status = 1,
+		IsSubscribedToNewsletter = true,
+		Notes = "VIP Customer",
+		RegisterDate = DateTime.Now
+	}
+	);
+
 		}
 	}
 }

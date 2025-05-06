@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Abaya_Store.Presistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b21c89016f05f8be76b534efab1b37872308c0a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3fc9e1a560c0572b62680b66cf60dfa41bfb49dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Abaya_Store.Presistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Abaya_Store.Presistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

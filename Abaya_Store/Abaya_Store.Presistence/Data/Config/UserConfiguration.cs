@@ -18,6 +18,27 @@ namespace AbayaStore.Configurations
 				   .OnDelete(DeleteBehavior.Cascade);
 
 			builder.ToTable("Users");
+
+			builder.HasData(
+	new User
+	{
+		Id = 2,
+		FirstName = "Admin",
+		LastName = "User",
+		Email = "admin@example.com",
+		Phone = "123456789",
+		Address = "Admin Office",
+		Password = "adminpass",
+		Role = 1,
+		status = 1,
+		UserName = "admin",
+		CreatedAt = DateTime.Now,
+		Position = "Administrator",
+		Permissions = 255
+	}
+);
+
+
 		}
 	}
 }

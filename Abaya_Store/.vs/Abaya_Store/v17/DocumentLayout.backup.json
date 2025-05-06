@@ -3,6 +3,70 @@
   "WorkspaceRootPath": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|f:\\my_github_apps\\abaya store\\abaya_store\\abaya_store.presistence\\data\\config\\productreviewconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|solutionrelative:abaya_store.presistence\\data\\config\\productreviewconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|f:\\my_github_apps\\abaya store\\abaya_store\\abaya_store.presistence\\data\\config\\orderdetaileconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|solutionrelative:abaya_store.presistence\\data\\config\\orderdetaileconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|f:\\my_github_apps\\abaya store\\abaya_store\\abaya_store.presistence\\data\\config\\billconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|solutionrelative:abaya_store.presistence\\data\\config\\billconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|f:\\my_github_apps\\abaya store\\abaya_store\\abaya_store.presistence\\data\\config\\wishlistconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|solutionrelative:abaya_store.presistence\\data\\config\\wishlistconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|f:\\my_github_apps\\abaya store\\abaya_store\\abaya_store.presistence\\data\\config\\newslettersubscriptionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|solutionrelative:abaya_store.presistence\\data\\config\\newslettersubscriptionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|f:\\my_github_apps\\abaya store\\abaya_store\\abaya_store.presistence\\data\\config\\paymenttransactionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|solutionrelative:abaya_store.presistence\\data\\config\\paymenttransactionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|f:\\my_github_apps\\abaya store\\abaya_store\\abaya_store.presistence\\data\\config\\shippinginfoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|solutionrelative:abaya_store.presistence\\data\\config\\shippinginfoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|f:\\my_github_apps\\abaya store\\abaya_store\\abaya_store.presistence\\data\\config\\offerproductconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|solutionrelative:abaya_store.presistence\\data\\config\\offerproductconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|f:\\my_github_apps\\abaya store\\abaya_store\\abaya_store.presistence\\data\\config\\offerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|solutionrelative:abaya_store.presistence\\data\\config\\offerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|f:\\my_github_apps\\abaya store\\abaya_store\\abaya_store.presistence\\data\\config\\wishlistitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|solutionrelative:abaya_store.presistence\\data\\config\\wishlistitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|f:\\my_github_apps\\abaya store\\abaya_store\\abaya_store.presistence\\data\\config\\cartitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|solutionrelative:abaya_store.presistence\\data\\config\\cartitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|f:\\my_github_apps\\abaya store\\abaya_store\\abaya_store.presistence\\data\\config\\cartconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|solutionrelative:abaya_store.presistence\\data\\config\\cartconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|f:\\my_github_apps\\abaya store\\abaya_store\\abaya_store.presistence\\data\\config\\auditlogconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|solutionrelative:abaya_store.presistence\\data\\config\\auditlogconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|f:\\my_github_apps\\abaya store\\abaya_store\\abaya_store.presistence\\data\\config\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|solutionrelative:abaya_store.presistence\\data\\config\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|f:\\my_github_apps\\abaya store\\abaya_store\\abaya_store.presistence\\data\\config\\customerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|solutionrelative:abaya_store.presistence\\data\\config\\customerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|f:\\my_github_apps\\abaya store\\abaya_store\\abaya_store.presistence\\data\\config\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}|Abaya_Store.Presistence\\Abaya_Store.Presistence.csproj|solutionrelative:abaya_store.presistence\\data\\config\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FC0CD227-AA7E-4776-A87F-A8911CE5F423}|Abaya_Store.API\\Abaya_Store.API.csproj|f:\\my_github_apps\\abaya store\\abaya_store\\abaya_store.api\\controllers\\billcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC0CD227-AA7E-4776-A87F-A8911CE5F423}|Abaya_Store.API\\Abaya_Store.API.csproj|solutionrelative:abaya_store.api\\controllers\\billcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,15 +78,223 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductReviewConfiguration.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Data\\Config\\ProductReviewConfiguration.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Presistence\\Data\\Config\\ProductReviewConfiguration.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Data\\Config\\ProductReviewConfiguration.cs*",
+              "RelativeToolTip": "Abaya_Store.Presistence\\Data\\Config\\ProductReviewConfiguration.cs*",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAowCUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T09:05:04.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderDetaileConfiguration.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Data\\Config\\OrderDetaileConfiguration.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Presistence\\Data\\Config\\OrderDetaileConfiguration.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Data\\Config\\OrderDetaileConfiguration.cs*",
+              "RelativeToolTip": "Abaya_Store.Presistence\\Data\\Config\\OrderDetaileConfiguration.cs*",
+              "ViewState": "AgIAABcAAAAAAAAAAAAowCgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T09:04:23.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BillConfiguration.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Data\\Config\\BillConfiguration.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Presistence\\Data\\Config\\BillConfiguration.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Data\\Config\\BillConfiguration.cs*",
+              "RelativeToolTip": "Abaya_Store.Presistence\\Data\\Config\\BillConfiguration.cs*",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T09:04:04.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NewsletterSubscriptionConfiguration.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Data\\Config\\NewsletterSubscriptionConfiguration.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Presistence\\Data\\Config\\NewsletterSubscriptionConfiguration.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Data\\Config\\NewsletterSubscriptionConfiguration.cs*",
+              "RelativeToolTip": "Abaya_Store.Presistence\\Data\\Config\\NewsletterSubscriptionConfiguration.cs*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwB4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T09:02:16.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PaymentTransactionConfiguration.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Data\\Config\\PaymentTransactionConfiguration.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Presistence\\Data\\Config\\PaymentTransactionConfiguration.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Data\\Config\\PaymentTransactionConfiguration.cs*",
+              "RelativeToolTip": "Abaya_Store.Presistence\\Data\\Config\\PaymentTransactionConfiguration.cs*",
+              "ViewState": "AgIAABcAAAAAAAAAAAAqwDEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T09:01:46.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ShippingInfoConfiguration.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Data\\Config\\ShippingInfoConfiguration.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Presistence\\Data\\Config\\ShippingInfoConfiguration.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Data\\Config\\ShippingInfoConfiguration.cs*",
+              "RelativeToolTip": "Abaya_Store.Presistence\\Data\\Config\\ShippingInfoConfiguration.cs*",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA2wBcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T09:01:24.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OfferProductConfiguration.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Data\\Config\\OfferProductConfiguration.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Presistence\\Data\\Config\\OfferProductConfiguration.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Data\\Config\\OfferProductConfiguration.cs",
+              "RelativeToolTip": "Abaya_Store.Presistence\\Data\\Config\\OfferProductConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T09:01:04.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OfferConfiguration.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Data\\Config\\OfferConfiguration.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Presistence\\Data\\Config\\OfferConfiguration.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Data\\Config\\OfferConfiguration.cs",
+              "RelativeToolTip": "Abaya_Store.Presistence\\Data\\Config\\OfferConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T09:00:37.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WishListItemConfiguration.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Data\\Config\\WishListItemConfiguration.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Presistence\\Data\\Config\\WishListItemConfiguration.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Data\\Config\\WishListItemConfiguration.cs",
+              "RelativeToolTip": "Abaya_Store.Presistence\\Data\\Config\\WishListItemConfiguration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwBUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T08:59:38.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WishListConfiguration.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Data\\Config\\WishListConfiguration.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Presistence\\Data\\Config\\WishListConfiguration.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Data\\Config\\WishListConfiguration.cs*",
+              "RelativeToolTip": "Abaya_Store.Presistence\\Data\\Config\\WishListConfiguration.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T08:59:22.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CartItemConfiguration.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Data\\Config\\CartItemConfiguration.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Presistence\\Data\\Config\\CartItemConfiguration.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Data\\Config\\CartItemConfiguration.cs",
+              "RelativeToolTip": "Abaya_Store.Presistence\\Data\\Config\\CartItemConfiguration.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwBUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T08:58:57.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CartConfiguration.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Data\\Config\\CartConfiguration.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Presistence\\Data\\Config\\CartConfiguration.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Data\\Config\\CartConfiguration.cs",
+              "RelativeToolTip": "Abaya_Store.Presistence\\Data\\Config\\CartConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T08:58:20.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuditLogConfiguration.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Data\\Config\\AuditLogConfiguration.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Presistence\\Data\\Config\\AuditLogConfiguration.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Data\\Config\\AuditLogConfiguration.cs",
+              "RelativeToolTip": "Abaya_Store.Presistence\\Data\\Config\\AuditLogConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T08:58:04.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Data\\Config\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Presistence\\Data\\Config\\UserConfiguration.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Data\\Config\\UserConfiguration.cs*",
+              "RelativeToolTip": "Abaya_Store.Presistence\\Data\\Config\\UserConfiguration.cs*",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswBUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T08:57:50.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CustomerConfiguration.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Data\\Config\\CustomerConfiguration.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Presistence\\Data\\Config\\CustomerConfiguration.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Data\\Config\\CustomerConfiguration.cs*",
+              "RelativeToolTip": "Abaya_Store.Presistence\\Data\\Config\\CustomerConfiguration.cs*",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T08:57:28.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductConfiguration.cs",
+              "DocumentMoniker": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Data\\Config\\ProductConfiguration.cs",
+              "RelativeDocumentMoniker": "Abaya_Store.Presistence\\Data\\Config\\ProductConfiguration.cs",
+              "ToolTip": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.Presistence\\Data\\Config\\ProductConfiguration.cs*",
+              "RelativeToolTip": "Abaya_Store.Presistence\\Data\\Config\\ProductConfiguration.cs*",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T08:56:58.53Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 16,
               "Title": "BillController.cs",
               "DocumentMoniker": "F:\\My_github_apps\\Abaya Store\\Abaya_Store\\Abaya_Store.API\\Controllers\\BillController.cs",
               "RelativeDocumentMoniker": "Abaya_Store.API\\Controllers\\BillController.cs",

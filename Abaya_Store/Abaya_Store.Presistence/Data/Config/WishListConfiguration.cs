@@ -10,6 +10,14 @@ namespace AbayaStore.Configurations
 			builder.HasKey(w => w.Id);
 
 			builder.ToTable("WishList");
+
+			builder.HasData(
+				new WishList
+				{
+					Id = 1,
+					CustomerId = 1
+				});
+
 		}
 	}
 }

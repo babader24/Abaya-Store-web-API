@@ -20,6 +20,27 @@ namespace AbayaStore.Configurations
 
 			builder.ToTable("OrderDetailes");
 
+			builder.HasData(
+				  new OrderDetaile
+				  {
+					  Id = 1,
+					  ProductId = 1,
+					  Quantity = 2,
+					  UnitPrice = 100.25m,
+					  Amount = 200.50m,
+					  BillId = 1
+				  },
+				  new OrderDetaile
+				  {
+					  Id = 2,
+					  ProductId = 2,
+					  Quantity = 1,
+					  UnitPrice = 50.25m,
+					  Amount = 50.25m,
+					  BillId = 1
+			});
+
+
 		}
 	}
 }

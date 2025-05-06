@@ -12,6 +12,16 @@ namespace AbayaStore.Configurations
 
 			builder.ToTable("Cart");
 
+			builder.HasData(
+				new Cart
+				{
+					Id = 1,
+					CustomerId = 1
+				});
+
+
+
+
 		}
 	}
 }

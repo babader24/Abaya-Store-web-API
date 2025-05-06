@@ -18,6 +18,19 @@ namespace AbayaStore.Configurations
 				   .HasForeignKey<ShippingInfo>(s => s.BillId);
 
 			builder.ToTable("ShippingInfo");
+
+			builder.HasData(
+				new ShippingInfo
+				{
+					Id = 1,
+					BillId = 1,
+					City = "Aden",
+					Address = "KhorMaksar Street",
+					PostalCode = "2001",
+					DeliveryStatus = 0
+				});
+
+
 		}
 	}
 }

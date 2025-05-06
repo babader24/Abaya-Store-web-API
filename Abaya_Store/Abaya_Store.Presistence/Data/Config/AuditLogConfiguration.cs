@@ -13,6 +13,17 @@ namespace AbayaStore.Configurations
 
 			builder.ToTable("AuditLogs");
 
+			builder.HasData(
+	new AuditLog
+	{
+		Id = 1,
+		UserId = 2,
+		Action = "Login",
+		Date = DateTime.Now
+	}
+);
+
+
 		}
 	}
 }

@@ -16,6 +16,27 @@ namespace AbayaStore.Configurations
 				   .HasForeignKey(pr => pr.ProductId);
 
 			builder.ToTable("ProductReviews");
+
+			builder.HasData(
+				new ProductReview
+				{
+					Id = 1,
+					ProductId = 1,
+					CustomerId = 1,
+					Rating = 5,
+					Comment = "Excellent quality!",
+					Date = DateTime.Now.AddDays(-1)
+				},
+				new ProductReview
+				{
+					Id = 2,
+					ProductId = 2,
+					CustomerId = 1,
+					Rating = 4,
+					Comment = "Very good, but packaging could be better.",
+					Date = DateTime.Now
+				});
+
 		}
 	}
 }

@@ -34,6 +34,19 @@ public class PaymentTransactionConfiguration : IEntityTypeConfiguration<PaymentT
 			.WithOne()
 			.HasForeignKey<PaymentTransaction>(p => p.BillId)
 			.OnDelete(DeleteBehavior.Cascade);
+
+		builder.HasData(
+			new PaymentTransaction
+			{
+				Id = 1,
+				BillId = 1,
+				PaymentGateway = "PayPal",
+				TransactionId = "TXN123456",
+				Amount = 250.75m,
+				IsSuccess = true,
+				ResponseMessage = "Payment Approved",
+				Date = DateTime.Now
+			});
 	}
 }
 

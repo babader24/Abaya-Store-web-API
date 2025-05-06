@@ -12,6 +12,12 @@ namespace AbayaStore.Configurations
 			builder.Property(c => c.Name).IsRequired().HasMaxLength(100);
 
 			builder.ToTable("Categories");
+
+			builder.HasData(
+				new Category { Id = 1, Name = "Electronics" },
+				new Category { Id = 2, Name = "Clothing" },
+				new Category { Id = 3, Name = "Books" }
+			);
 		}
 	}
 }

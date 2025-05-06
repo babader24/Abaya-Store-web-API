@@ -18,6 +18,16 @@ namespace AbayaStore.Configurations
 				   .HasForeignKey(w => w.ProductId);
 
 			builder.ToTable("WishListItems");
+
+			builder.HasData(
+				new WishListItem
+				{
+					Id = 1,
+					WishListId = 1,
+					ProductId = 2,
+					DateAdded = DateTime.Now
+				});
+
 		}
 	}
 }
