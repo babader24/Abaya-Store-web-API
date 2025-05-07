@@ -26,13 +26,13 @@ namespace Abaya_Store.Application.Features.ProductReviews.Handlers.Commands
 			var createResult = createValidator.Validate(request.CreateDto);
 
 			if (createResult.IsValid == false)
-				response.Failure(createResult.Errors.Select(e => e.ErrorMessage).ToList());
+				response = response.Failure(createResult.Errors.Select(e => e.ErrorMessage).ToList());
 
 			var review = _mapper.Map<ProductReview>(request.CreateDto);
 
 			review = await _productReviewRepository.AddAsync(review);
 
-			response.Success(review.Id);
+			response = response.Success(review.Id);
 			return response;
 		}
 	}

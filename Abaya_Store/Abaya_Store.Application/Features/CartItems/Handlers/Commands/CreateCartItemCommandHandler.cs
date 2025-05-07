@@ -30,13 +30,13 @@ namespace Abaya_Store.Application.Features.CartItems.Handlers.Commands
 			var validatorResult = validator.Validate(request.createDto);
 
 			if (validatorResult.IsValid == false)
-				response.Failure(validatorResult.Errors.Select(e => e.ErrorMessage).ToList());
+				response = response.Failure(validatorResult.Errors.Select(e => e.ErrorMessage).ToList());
 
 			var cartItem = _mapper.Map<CartItem>(request.createDto);
 
 			cartItem = await _cartItemRepository.AddAsync(cartItem);
 
-			response.Success(cartItem.Id);
+			response = response.Success(cartItem.Id);
 			return response;
 		}
 	}

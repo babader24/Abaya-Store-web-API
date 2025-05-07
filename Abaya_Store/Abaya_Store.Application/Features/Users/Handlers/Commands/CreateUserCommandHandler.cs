@@ -31,12 +31,12 @@ namespace Abaya_Store.Application.Features.Users.Handlers.Commands
 			var createResult = createValidator.Validate(request.CreateDto);
 
 			if (createResult.IsValid == false)
-				response.Failure(createResult.Errors.Select(e => e.ErrorMessage).ToList());
+				response = response.Failure(createResult.Errors.Select(e => e.ErrorMessage).ToList());
 
 			var user = _mapper.Map<User>(request.CreateDto);
 			user = await _userRepository.AddAsync(user);
 
-			response.Success(user.Id);
+			response = response.Success(user.Id);
 			return response;
 		}
 	}

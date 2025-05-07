@@ -30,13 +30,13 @@ namespace Abaya_Store.Application.Features.Categories.Handlers.Commands
 			var validatorResult = validator.Validate(request.categoryCreateDto);
 
 			if (validatorResult.IsValid == false)
-				response.Failure(validatorResult.Errors.Select(e => e.ErrorMessage).ToList());
+				response = response.Failure(validatorResult.Errors.Select(e => e.ErrorMessage).ToList());
 
 			var category = _mapper.Map<Category>(request.categoryCreateDto);
 
 			category = await _categoryRepository.AddAsync(category);
 
-			response.Success(category.Id);
+			response = response.Success(category.Id);
 			return response;
 		}
 	}

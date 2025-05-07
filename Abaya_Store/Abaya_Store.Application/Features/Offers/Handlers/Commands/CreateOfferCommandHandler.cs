@@ -30,13 +30,13 @@ namespace Abaya_Store.Application.Features.Offers.Handlers.Commands
 			var createValidatorResult = createValidator.Validate(request.createDto);
 
 			if (createValidatorResult.IsValid == false)
-				response.Failure(createValidatorResult.Errors.Select(e => e.ErrorMessage).ToList());
+				response = response.Failure(createValidatorResult.Errors.Select(e => e.ErrorMessage).ToList());
 
 			var offer = _mapper.Map<Offer>(request.createDto);
 
 			offer = await _offerRepository.AddAsync(offer);
 
-			response.Success(offer.Id);
+			response = response.Success(offer.Id);
 			return response;
 		}
 	}

@@ -31,12 +31,12 @@ namespace Abaya_Store.Application.Features.ShippingInfos.Handlers.Commands
 			var createResult = createValidator.Validate(request.createDto);
 
 			if (createResult.IsValid == false)
-				response.Failure(createResult.Errors.Select(e => e.ErrorMessage).ToList());
+				response = response.Failure(createResult.Errors.Select(e => e.ErrorMessage).ToList());
 
 			var shippingInfo = _mapper.Map<ShippingInfo>(request.createDto);
 			shippingInfo = await _shippingInfoRepository.AddAsync(shippingInfo);
 
-			response.Success(shippingInfo.Id);
+			response = response.Success(shippingInfo.Id);
 			return response;
 		}
 	}

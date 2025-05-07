@@ -31,14 +31,14 @@ namespace Abaya_Store.Application.Features.WishListItems.Handlers.Commands
 			var createResult = createValidator.Validate(request.CreateDto);
 
 			if (createResult.IsValid == false)
-				response.Failure(createResult.Errors.Select(e => e.ErrorMessage).ToList());
+				response = response.Failure(createResult.Errors.Select(e => e.ErrorMessage).ToList());
 
 			var wishListItem = _mapper.Map<WishListItem>(request.CreateDto);
 		
 
 			wishListItem = await _wishListItemRepository.AddAsync(wishListItem);
 
-			response.Success(wishListItem.Id);
+			response = response.Success(wishListItem.Id);
 			return response;
 		}
 	}

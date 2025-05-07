@@ -30,14 +30,14 @@ namespace Abaya_Store.Application.Features.Products.Handlers.Commands
 			var createResult = createValidator.Validate(request.createDto);
 
 			if (createResult.IsValid == false)
-				response.Failure(createResult.Errors.Select(e => e.ErrorMessage).ToList());
+				response = response.Failure(createResult.Errors.Select(e => e.ErrorMessage).ToList());
 
 
 			var product = _mapper.Map<Product>(request.createDto);
 
 			product = await _productRepository.AddAsync(product);
 
-			response.Success(product.Id);
+			response = response.Success(product.Id);
 			return response;
 		}
 	}

@@ -31,12 +31,12 @@ namespace Abaya_Store.Application.Features.Bills.Handlers.Commands
 			var validatorResult = validator.Validate(request.BillDto);
 
 			if (validatorResult.IsValid == false)
-				response.Failure(validatorResult.Errors.Select(e => e.ErrorMessage).ToList());
+				response = response.Failure(validatorResult.Errors.Select(e => e.ErrorMessage).ToList());
 
 			var bill = _mapper.Map<Bill>(request.BillDto);
 			bill = await _billRepository.AddAsync(bill);
 
-			response.Success(bill.Id);
+			response = response.Success(bill.Id);
 			return response;
 		}
 	}

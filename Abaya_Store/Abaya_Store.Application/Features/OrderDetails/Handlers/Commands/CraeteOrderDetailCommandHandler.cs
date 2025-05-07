@@ -30,13 +30,13 @@ namespace Abaya_Store.Application.Features.OrderDetails.Handlers.Commands
 			var createResult = createValidator.Validate(request.createDto);
 
 			if (createResult.IsValid == false)
-				response.Failure(createResult.Errors.Select(e => e.ErrorMessage).ToList());
+				response = response.Failure(createResult.Errors.Select(e => e.ErrorMessage).ToList());
 
 			var orderDetail = _mapper.Map<OrderDetaile>(request.createDto);
 
 			orderDetail = await _orderDetaileRepository.AddAsync(orderDetail);
 
-			response.Success(orderDetail.Id);
+			response = response.Success(orderDetail.Id);
 			return response;
 		}
 	}

@@ -31,13 +31,13 @@ namespace Abaya_Store.Application.Features.PaymentTransactions.Handlers.Commands
 			var createResult = createValidator.Validate(request.createDto);
 
 			if (createResult.IsValid == false)
-				response.Failure(createResult.Errors.Select(e => e.ErrorMessage).ToList());
+				response = response.Failure(createResult.Errors.Select(e => e.ErrorMessage).ToList());
 
 			var payment = _mapper.Map<PaymentTransaction>(request.createDto);
 
 			payment = await _paymentTransactionRepository.AddAsync(payment);
 
-			response.Success(payment.Id);
+			response = response.Success(payment.Id);
 			return response;
 		}
 	}

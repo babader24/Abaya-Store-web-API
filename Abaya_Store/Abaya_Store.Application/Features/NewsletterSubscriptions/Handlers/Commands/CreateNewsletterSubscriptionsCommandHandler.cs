@@ -30,13 +30,13 @@ namespace Abaya_Store.Application.Features.NewsletterSubscriptions.Handlers.Comm
 			var validatorResult = validator.Validate(request.newsletterSubscription);
 
 			if (validatorResult.IsValid == false)
-				response.Failure(validatorResult.Errors.Select(e => e.ErrorMessage).ToList());
+				response = response.Failure(validatorResult.Errors.Select(e => e.ErrorMessage).ToList());
 
 			var newssubscription = _mapper.Map<NewsletterSubscription>(request.newsletterSubscription);
 
 			newssubscription = await _subscriptionRepository.AddAsync(newssubscription);
 
-			response.Success(newssubscription.Id);
+			response = response.Success(newssubscription.Id);
 			return response;
 		}
 	}
