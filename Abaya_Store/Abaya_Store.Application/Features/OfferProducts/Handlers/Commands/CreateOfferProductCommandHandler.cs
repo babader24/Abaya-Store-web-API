@@ -13,17 +13,17 @@ using System.Threading.Tasks;
 
 namespace Abaya_Store.Application.Features.OfferProducts.Handlers.Commands
 {
-	public class CraeteOfferProductCommandHandler : IRequestHandler<CraeteOfferProductCommand, BaseCommandRespons>
+	public class CreateOfferProductCommandHandler : IRequestHandler<CreateOfferProductCommand, BaseCommandRespons>
 	{
 		private readonly IOfferProductRepository _offerProductRepository;
 		private readonly IMapper _mapper;
 
-		public CraeteOfferProductCommandHandler(IOfferProductRepository offerProductRepository, IMapper mapper)
+		public CreateOfferProductCommandHandler(IOfferProductRepository offerProductRepository, IMapper mapper)
 		{
 			_offerProductRepository = offerProductRepository;
 			_mapper = mapper;
 		}
-		public async Task<BaseCommandRespons> Handle(CraeteOfferProductCommand request, CancellationToken cancellationToken)
+		public async Task<BaseCommandRespons> Handle(CreateOfferProductCommand request, CancellationToken cancellationToken)
 		{
 			var response = new BaseCommandRespons();
 			var createProductValidator = new OfferProductCreateDtoValidator();

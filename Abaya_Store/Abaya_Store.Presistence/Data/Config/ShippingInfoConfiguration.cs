@@ -27,7 +27,7 @@ namespace AbayaStore.Configurations
 					City = "Aden",
 					Address = "KhorMaksar Street",
 					PostalCode = "2001",
-					DeliveryStatus = 0
+					DeliveryStatus = 1
 				});
 
 

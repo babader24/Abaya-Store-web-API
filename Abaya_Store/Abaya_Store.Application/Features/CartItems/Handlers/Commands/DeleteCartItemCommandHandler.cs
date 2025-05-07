@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Abaya_Store.Application.Features.CartItems.Handlers.Commands
 {
-	class DeleteCartItemCommandHandler : IRequestHandler<DeleteCartItemCommand>
+	public class DeleteCartItemCommandHandler : IRequestHandler<DeleteCartItemCommand>
 	{
 		private readonly ICartItemRepository _cartItemRepository;
 	

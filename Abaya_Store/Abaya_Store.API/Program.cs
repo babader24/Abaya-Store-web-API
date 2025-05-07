@@ -5,9 +5,10 @@ using Abaya_Store.Presistence;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.ConfigureApplicationServices();
 builder.Services.ConfigurePresistenceServices(builder.Configuration);
 builder.Services.ConfigureInfrastructureServices(builder.Configuration);
+builder.Services.ConfigureApplicationServices();
+
 
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi

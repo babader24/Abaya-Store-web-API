@@ -9,15 +9,15 @@ namespace Abaya_Store.Application.Responses
     public class BaseCommandRespons
     {
 		public int Id { get; set; }
-		public bool Succsss { get; set; }
+		public bool IsSuccess { get; set; }
 		public string Message { get; set; } 
 		public List<string>? Errors { get; set; }
 
-		public BaseCommandRespons Success(int id, string massage = "creation success" )
+		public  BaseCommandRespons Success(int id, string massage = "creation success" )
 		{
 			return new BaseCommandRespons
 			{
-				Succsss = true,
+				IsSuccess = true,
 				Message = massage,
 				Id = id,
 				Errors = null
@@ -27,7 +27,7 @@ namespace Abaya_Store.Application.Responses
 		{
 			return new BaseCommandRespons
 			{
-				Succsss = false,
+				IsSuccess = false,
 				Message = massage,
 				Id = 0,
 				Errors = errors

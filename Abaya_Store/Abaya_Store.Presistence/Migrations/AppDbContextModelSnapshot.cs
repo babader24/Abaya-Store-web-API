@@ -48,6 +48,15 @@ namespace Abaya_Store.Presistence.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("AuditLogs", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Action = "Login",
+                            Date = new DateTime(2025, 5, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            UserId = 2
+                        });
                 });
 
             modelBuilder.Entity("Abaya_Store.Domain.Entities.Bill", b =>
@@ -84,6 +93,18 @@ namespace Abaya_Store.Presistence.Migrations
                     b.HasIndex("CustomerId");
 
                     b.ToTable("Bills", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            BillDate = new DateTime(2025, 5, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BillNumber = "BILL-001",
+                            CustomerId = 1,
+                            Notes = "First order",
+                            PaymentStatus = (byte)1,
+                            Total = 250.75m
+                        });
                 });
 
             modelBuilder.Entity("Abaya_Store.Domain.Entities.Cart", b =>
@@ -103,6 +124,13 @@ namespace Abaya_Store.Presistence.Migrations
                         .IsUnique();
 
                     b.ToTable("Cart", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CustomerId = 1
+                        });
                 });
 
             modelBuilder.Entity("Abaya_Store.Domain.Entities.CartItem", b =>
@@ -132,6 +160,16 @@ namespace Abaya_Store.Presistence.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("CartItems", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CartId = 1,
+                            DateAdded = new DateTime(2025, 5, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ProductId = 1,
+                            Quantity = 2
+                        });
                 });
 
             modelBuilder.Entity("Abaya_Store.Domain.Entities.Category", b =>
@@ -150,6 +188,23 @@ namespace Abaya_Store.Presistence.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Categories", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "Electronics"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "Clothing"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "Books"
+                        });
                 });
 
             modelBuilder.Entity("Abaya_Store.Domain.Entities.NewsletterSubscription", b =>
@@ -179,6 +234,16 @@ namespace Abaya_Store.Presistence.Migrations
                     b.HasIndex("CustomerId");
 
                     b.ToTable("NewsletterSubscriptions", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CustomerId = 1,
+                            Email = "alice@example.com",
+                            IsActive = true,
+                            SubscribedAt = new DateTime(2025, 5, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                        });
                 });
 
             modelBuilder.Entity("Abaya_Store.Domain.Entities.Offer", b =>
@@ -201,6 +266,22 @@ namespace Abaya_Store.Presistence.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Offers", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            DiscountPercentage = 10m,
+                            EndDate = new DateTime(2025, 5, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            StartDate = new DateTime(2025, 4, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            Id = 2,
+                            DiscountPercentage = 15m,
+                            EndDate = new DateTime(2025, 5, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            StartDate = new DateTime(2025, 4, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                        });
                 });
 
             modelBuilder.Entity("Abaya_Store.Domain.Entities.OfferProduct", b =>
@@ -224,6 +305,20 @@ namespace Abaya_Store.Presistence.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("OfferProducts", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            OfferId = 1,
+                            ProductId = 1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            OfferId = 2,
+                            ProductId = 2
+                        });
                 });
 
             modelBuilder.Entity("Abaya_Store.Domain.Entities.OrderDetaile", b =>
@@ -256,6 +351,26 @@ namespace Abaya_Store.Presistence.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("OrderDetailes", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Amount = 200.50m,
+                            BillId = 1,
+                            ProductId = 1,
+                            Quantity = 2,
+                            UnitPrice = 100.25m
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Amount = 50.25m,
+                            BillId = 1,
+                            ProductId = 2,
+                            Quantity = 1,
+                            UnitPrice = 50.25m
+                        });
                 });
 
             modelBuilder.Entity("Abaya_Store.Domain.Entities.PaymentTransaction", b =>
@@ -298,6 +413,19 @@ namespace Abaya_Store.Presistence.Migrations
                         .IsUnique();
 
                     b.ToTable("PaymentTransactions", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Amount = 250.75m,
+                            BillId = 1,
+                            Date = new DateTime(2025, 5, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsSuccess = true,
+                            PaymentGateway = "PayPal",
+                            ResponseMessage = "Payment Approved",
+                            TransactionId = "TXN123456"
+                        });
                 });
 
             modelBuilder.Entity("Abaya_Store.Domain.Entities.Person", b =>
@@ -402,6 +530,30 @@ namespace Abaya_Store.Presistence.Migrations
                     b.HasIndex("OfferId");
 
                     b.ToTable("Products", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CategoryId = 1,
+                            Description = "Latest model",
+                            Image = "smartphone.jpg",
+                            Name = "Smartphone",
+                            QuantityAvailable = 100,
+                            Size = "Medium",
+                            UnitPrice = 599.99m
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CategoryId = 2,
+                            Description = "Cotton",
+                            Image = "tshirt.jpg",
+                            Name = "T-Shirt",
+                            QuantityAvailable = 200,
+                            Size = "L",
+                            UnitPrice = 19.99m
+                        });
                 });
 
             modelBuilder.Entity("Abaya_Store.Domain.Entities.ProductReview", b =>
@@ -436,6 +588,26 @@ namespace Abaya_Store.Presistence.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("ProductReviews", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Comment = "Excellent quality!",
+                            CustomerId = 1,
+                            Date = new DateTime(2025, 5, 4, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ProductId = 1,
+                            Rating = 5
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Comment = "Very good, but packaging could be better.",
+                            CustomerId = 1,
+                            Date = new DateTime(2025, 5, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ProductId = 2,
+                            Rating = 4
+                        });
                 });
 
             modelBuilder.Entity("Abaya_Store.Domain.Entities.ShippingInfo", b =>
@@ -473,6 +645,17 @@ namespace Abaya_Store.Presistence.Migrations
                         .IsUnique();
 
                     b.ToTable("ShippingInfo", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Address = "KhorMaksar Street",
+                            BillId = 1,
+                            City = "Aden",
+                            DeliveryStatus = (byte)1,
+                            PostalCode = "2001"
+                        });
                 });
 
             modelBuilder.Entity("Abaya_Store.Domain.Entities.WishList", b =>
@@ -492,6 +675,13 @@ namespace Abaya_Store.Presistence.Migrations
                         .IsUnique();
 
                     b.ToTable("WishList", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CustomerId = 1
+                        });
                 });
 
             modelBuilder.Entity("Abaya_Store.Domain.Entities.WishListItem", b =>
@@ -518,6 +708,15 @@ namespace Abaya_Store.Presistence.Migrations
                     b.HasIndex("WishListId");
 
                     b.ToTable("WishListItems", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            DateAdded = new DateTime(2025, 5, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ProductId = 2,
+                            WishListId = 1
+                        });
                 });
 
             modelBuilder.Entity("Abaya_Store.Domain.Entities.Customer", b =>
@@ -535,6 +734,23 @@ namespace Abaya_Store.Presistence.Migrations
                         .HasColumnType("datetime2");
 
                     b.ToTable("Customers", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Address = "Aden",
+                            Email = "ali@example.com",
+                            FirstName = "Ali",
+                            LastName = "Ahmed",
+                            Password = "hashedpassword",
+                            Phone = "777777777",
+                            Role = (byte)0,
+                            status = (byte)1,
+                            IsSubscribedToNewsletter = true,
+                            Notes = "VIP Customer",
+                            RegisterDate = new DateTime(2025, 5, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                        });
                 });
 
             modelBuilder.Entity("Abaya_Store.Domain.Entities.User", b =>
@@ -561,6 +777,24 @@ namespace Abaya_Store.Presistence.Migrations
                         .HasColumnType("nvarchar(100)");
 
                     b.ToTable("Users", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 2,
+                            Address = "Admin Office",
+                            Email = "admin@example.com",
+                            FirstName = "Admin",
+                            LastName = "User",
+                            Password = "adminpass",
+                            Phone = "123456789",
+                            Role = (byte)1,
+                            status = (byte)1,
+                            CreatedAt = new DateTime(2025, 5, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Permissions = (byte)255,
+                            Position = "Administrator",
+                            UserName = "admin"
+                        });
                 });
 
             modelBuilder.Entity("Abaya_Store.Domain.Entities.AuditLog", b =>

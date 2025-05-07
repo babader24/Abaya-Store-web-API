@@ -25,7 +25,7 @@ namespace AbayaStore.Configurations
 					CustomerId = 1,
 					Rating = 5,
 					Comment = "Excellent quality!",
-					Date = DateTime.Now.AddDays(-1)
+					Date = new DateTime(2025, 5, 5).AddDays(-1)
 				},
 				new ProductReview
 				{
@@ -34,7 +34,7 @@ namespace AbayaStore.Configurations
 					CustomerId = 1,
 					Rating = 4,
 					Comment = "Very good, but packaging could be better.",
-					Date = DateTime.Now
+					Date = new DateTime(2025, 5, 5)
 				});
 
 		}

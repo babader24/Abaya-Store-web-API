@@ -32,7 +32,7 @@ namespace AbayaStore.Configurations
 		Role = 1,
 		status = 1,
 		UserName = "admin",
-		CreatedAt = DateTime.Now,
+		CreatedAt = new DateTime(2025, 5, 5),
 		Position = "Administrator",
 		Permissions = 255
 	}

@@ -6,7 +6,7 @@ using MediatR;
 
 namespace Abaya_Store.Application.Features.WishListItems.Handlers.Commands
 {
-	public class DeleteWishListItemCommandHandler : IRequestHandler<DeleteWishListItemCommand>
+	public class DeleteWishListItemCommandHandler : IRequestHandler<DeleteWishListItemCommand, Unit>
 	{
 		private readonly IWishListItemRepository _wishListItemRepository;
 		private readonly IMapper _mapper;

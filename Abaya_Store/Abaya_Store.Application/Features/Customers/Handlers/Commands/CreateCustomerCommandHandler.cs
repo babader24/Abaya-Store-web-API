@@ -30,13 +30,13 @@ namespace Abaya_Store.Application.Features.Customers.Handlers.Commands
 			var validatorResult = validator.Validate(request.CustomerCreateDto);
 
 			if (validatorResult.IsValid == false)
-				response.Failure(validatorResult.Errors.Select(e => e.ErrorMessage).ToList());
+				response = response.Failure(validatorResult.Errors.Select(e => e.ErrorMessage).ToList());
 
 			var customer = _mapper.Map<Customer>(request.CustomerCreateDto);
 
 			customer = await _customerRepository.AddAsync(customer);
 
-			response.Success(customer.Id);
+			response = response.Success(customer.Id);
 			return response;
 		}
 	}

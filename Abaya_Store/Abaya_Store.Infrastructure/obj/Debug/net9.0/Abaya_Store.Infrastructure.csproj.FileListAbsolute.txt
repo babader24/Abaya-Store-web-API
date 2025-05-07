@@ -1,8 +1,3 @@
-F:\My_github_apps\Abaya Store\Abaya_Store\Abaya_Store.Infrastructure\obj\Debug\net9.0\Abaya_Store.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
-F:\My_github_apps\Abaya Store\Abaya_Store\Abaya_Store.Infrastructure\obj\Debug\net9.0\Abaya_Store.Infrastructure.AssemblyInfoInputs.cache
-F:\My_github_apps\Abaya Store\Abaya_Store\Abaya_Store.Infrastructure\obj\Debug\net9.0\Abaya_Store.Infrastructure.AssemblyInfo.cs
-F:\My_github_apps\Abaya Store\Abaya_Store\Abaya_Store.Infrastructure\obj\Debug\net9.0\Abaya_Store.Infrastructure.csproj.CoreCompileInputs.cache
-F:\My_github_apps\Abaya Store\Abaya_Store\Abaya_Store.Infrastructure\obj\Debug\net9.0\Abaya_Store.Infrastructure.sourcelink.json
 F:\My_github_apps\Abaya Store\Abaya_Store\Abaya_Store.Infrastructure\bin\Debug\net9.0\Abaya_Store.Infrastructure.deps.json
 F:\My_github_apps\Abaya Store\Abaya_Store\Abaya_Store.Infrastructure\bin\Debug\net9.0\Abaya_Store.Infrastructure.dll
 F:\My_github_apps\Abaya Store\Abaya_Store\Abaya_Store.Infrastructure\bin\Debug\net9.0\Abaya_Store.Infrastructure.pdb
@@ -11,6 +6,11 @@ F:\My_github_apps\Abaya Store\Abaya_Store\Abaya_Store.Infrastructure\bin\Debug\n
 F:\My_github_apps\Abaya Store\Abaya_Store\Abaya_Store.Infrastructure\bin\Debug\net9.0\Abaya_Store.Application.pdb
 F:\My_github_apps\Abaya Store\Abaya_Store\Abaya_Store.Infrastructure\bin\Debug\net9.0\Abaya_Store.Domain.pdb
 F:\My_github_apps\Abaya Store\Abaya_Store\Abaya_Store.Infrastructure\obj\Debug\net9.0\Abaya_Store.Infrastructure.csproj.AssemblyReference.cache
+F:\My_github_apps\Abaya Store\Abaya_Store\Abaya_Store.Infrastructure\obj\Debug\net9.0\Abaya_Store.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\My_github_apps\Abaya Store\Abaya_Store\Abaya_Store.Infrastructure\obj\Debug\net9.0\Abaya_Store.Infrastructure.AssemblyInfoInputs.cache
+F:\My_github_apps\Abaya Store\Abaya_Store\Abaya_Store.Infrastructure\obj\Debug\net9.0\Abaya_Store.Infrastructure.AssemblyInfo.cs
+F:\My_github_apps\Abaya Store\Abaya_Store\Abaya_Store.Infrastructure\obj\Debug\net9.0\Abaya_Store.Infrastructure.csproj.CoreCompileInputs.cache
+F:\My_github_apps\Abaya Store\Abaya_Store\Abaya_Store.Infrastructure\obj\Debug\net9.0\Abaya_Store.Infrastructure.sourcelink.json
 F:\My_github_apps\Abaya Store\Abaya_Store\Abaya_Store.Infrastructure\obj\Debug\net9.0\Abaya_St.60357D33.Up2Date
 F:\My_github_apps\Abaya Store\Abaya_Store\Abaya_Store.Infrastructure\obj\Debug\net9.0\Abaya_Store.Infrastructure.dll
 F:\My_github_apps\Abaya Store\Abaya_Store\Abaya_Store.Infrastructure\obj\Debug\net9.0\refint\Abaya_Store.Infrastructure.dll

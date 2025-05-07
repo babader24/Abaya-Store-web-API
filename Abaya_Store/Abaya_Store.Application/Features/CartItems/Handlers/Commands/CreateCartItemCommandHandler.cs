@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace Abaya_Store.Application.Features.CartItems.Handlers.Commands
 {
-	class CreateCartItemCommandHandler : IRequestHandler<CreateCartItemCommand, BaseCommandRespons>
+	public class CreateCartItemCommandHandler : IRequestHandler<CreateCartItemCommand, BaseCommandRespons>
 	{
 		private readonly ICartItemRepository _cartItemRepository;
 		private readonly IMapper _mapper;

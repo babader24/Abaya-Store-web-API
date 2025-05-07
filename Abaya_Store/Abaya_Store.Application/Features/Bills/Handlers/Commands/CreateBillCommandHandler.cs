@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace Abaya_Store.Application.Features.Bills.Handlers.Commands
 {
-	class CreateBillCommandHandler : IRequestHandler<CreateBillCommand, BaseCommandRespons>
+	public class CreateBillCommandHandler : IRequestHandler<CreateBillCommand, BaseCommandRespons>
 	{
 		private readonly IBillRepository _billRepository;
 		private readonly IMapper _mapper;

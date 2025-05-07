@@ -32,7 +32,7 @@ public class NewsletterSubscriptionConfiguration : IEntityTypeConfiguration<News
 				Id = 1,
 				CustomerId = 1,
 				Email = "alice@example.com",
-				SubscribedAt = DateTime.Now,
+				SubscribedAt = new DateTime(2025, 5, 5),
 				IsActive = true
 			});
 

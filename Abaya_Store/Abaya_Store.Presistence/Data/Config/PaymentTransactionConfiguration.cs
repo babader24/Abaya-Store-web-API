@@ -45,7 +45,7 @@ public class PaymentTransactionConfiguration : IEntityTypeConfiguration<PaymentT
 				Amount = 250.75m,
 				IsSuccess = true,
 				ResponseMessage = "Payment Approved",
-				Date = DateTime.Now
+				Date = new DateTime(2025, 5, 5)
 			});
 	}
 }

@@ -26,7 +26,7 @@ namespace AbayaStore.Configurations
 					CartId = 1,
 					ProductId = 1,
 					Quantity = 2,
-					DateAdded = DateTime.Now
+					DateAdded = new DateTime(2025, 5, 5)
 				});
 
 

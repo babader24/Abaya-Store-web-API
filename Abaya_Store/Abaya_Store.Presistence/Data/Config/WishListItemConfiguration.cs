@@ -25,7 +25,7 @@ namespace AbayaStore.Configurations
 					Id = 1,
 					WishListId = 1,
 					ProductId = 2,
-					DateAdded = DateTime.Now
+					DateAdded = new DateTime(2025, 5, 5)
 				});
 
 		}

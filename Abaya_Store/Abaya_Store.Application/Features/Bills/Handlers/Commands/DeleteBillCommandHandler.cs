@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Abaya_Store.Application.Features.Bills.Handlers.Commands
 {
-	class DeleteBillCommandHandler : IRequestHandler<DeleteBillCommand>
+	public class DeleteBillCommandHandler : IRequestHandler<DeleteBillCommand>
 	{
 		private readonly IBillRepository _billRepository;
 		private readonly IMapper _mapper;

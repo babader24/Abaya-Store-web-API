@@ -21,7 +21,7 @@ namespace AbayaStore.Configurations
 					Id = 1,
 					BillNumber = "BILL-001",
 					CustomerId = 1,
-					BillDate = DateTime.Now,
+					BillDate = new DateTime(2025, 5, 5),
 					Total = 250.75m,
 					Notes = "First order",
 					PaymentStatus = 1 // مثلا 1 تعني مدفوع

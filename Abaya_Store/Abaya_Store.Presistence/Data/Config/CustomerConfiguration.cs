@@ -42,7 +42,7 @@ namespace AbayaStore.Configurations
 		status = 1,
 		IsSubscribedToNewsletter = true,
 		Notes = "VIP Customer",
-		RegisterDate = DateTime.Now
+		RegisterDate = new DateTime(2025, 5, 5)
 	}
 	);
 

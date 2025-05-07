@@ -13,10 +13,20 @@ namespace Abaya_Store.Application
     {
         public static IServiceCollection ConfigureApplicationServices(this IServiceCollection services)
         {
-            services.AddAutoMapper(Assembly.GetExecutingAssembly());
-            services.AddMediatR(Assembly.GetExecutingAssembly());
+			try
+			{
+				services.AddAutoMapper(Assembly.GetExecutingAssembly());
+				services.AddMediatR(typeof(ApplicationServicesRegistration).Assembly);
+			}
+			catch (ReflectionTypeLoadException ex)
+			{
+				foreach (var loaderException in ex.LoaderExceptions)
+				{
+					Console.WriteLine(loaderException.Message);
+				}
+			}
 
-            return services;
+			return services;
         }
 	}
 }

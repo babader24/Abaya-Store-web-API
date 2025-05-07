@@ -38,7 +38,7 @@ namespace Abaya_Store.API.Controllers
 		[HttpPost]
 		public async Task<ActionResult> Post([FromBody] OfferProductCreateDto createDto)
 		{
-			var command = new CraeteOfferProductCommand { createDto = createDto };
+			var command = new CreateOfferProductCommand { createDto = createDto };
 			var response = await _mediator.Send(command);
 			return Ok(response);
 

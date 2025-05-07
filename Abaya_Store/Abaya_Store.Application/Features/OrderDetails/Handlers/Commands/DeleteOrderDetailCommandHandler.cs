@@ -11,12 +11,12 @@ using System.Threading.Tasks;
 
 namespace Abaya_Store.Application.Features.OrderDetails.Handlers.Commands
 {
-	public class DeleteOrderDetailCommandHandkler : IRequestHandler<DeleteOrderDetailCommand>
+	public class DeleteOrderDetailCommandHandler : IRequestHandler<DeleteOrderDetailCommand>
 	{
 		private readonly IOrderDetaileRepository _orderDetaileRepository;
 		private readonly IMapper _mapper;
 
-		public DeleteOrderDetailCommandHandkler(IOrderDetaileRepository orderDetaileRepository, IMapper mapper)
+		public DeleteOrderDetailCommandHandler(IOrderDetaileRepository orderDetaileRepository, IMapper mapper)
 		{
 			_orderDetaileRepository = orderDetaileRepository;
 			_mapper = mapper;

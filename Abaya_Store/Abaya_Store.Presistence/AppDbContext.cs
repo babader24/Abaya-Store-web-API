@@ -34,6 +34,7 @@ namespace Abaya_Store.Persistence
 			base.OnModelCreating(modelBuilder);
 
 			modelBuilder.ApplyConfigurationsFromAssembly(typeof(AppDbContext).Assembly);
+		
 		}
 	}
 }
