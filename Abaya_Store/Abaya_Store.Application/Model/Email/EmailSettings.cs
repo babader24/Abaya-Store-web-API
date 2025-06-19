@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Abaya_Store.Application.Model
+namespace Abaya_Store.Application.Model.Email
 {
     public class EmailSettings
     {

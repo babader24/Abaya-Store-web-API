@@ -1,4 +1,4 @@
-﻿using Abaya_Store.Application.Model;
+﻿using Abaya_Store.Application.Model.Email;
 using System;
 using System.Collections.Generic;
 using System.Linq;

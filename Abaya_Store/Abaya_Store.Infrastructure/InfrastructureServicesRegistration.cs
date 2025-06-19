@@ -1,5 +1,5 @@
 ﻿using Abaya_Store.Application.Contracts.Infrastructture;
-using Abaya_Store.Application.Model;
+using Abaya_Store.Application.Model.Email;
 using Abaya_Store.Infrastructure.Mail;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;

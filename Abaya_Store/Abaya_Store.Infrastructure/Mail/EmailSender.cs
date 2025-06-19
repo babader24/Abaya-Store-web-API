@@ -1,5 +1,5 @@
 ﻿using Abaya_Store.Application.Contracts.Infrastructture;
-using Abaya_Store.Application.Model;
+using Abaya_Store.Application.Model.Email;
 using Microsoft.Extensions.Options;
 using SendGrid;
 using SendGrid.Helpers.Mail;
