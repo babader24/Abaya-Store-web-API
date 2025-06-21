@@ -1,6 +1,6 @@
 ﻿namespace Abaya_Store.Application.Model.Identity
 {
-	public class AuthReponse
+	public class AuthResponse
 	{
 		public string Id { get; set; }
 		public string UserName { get; set; }

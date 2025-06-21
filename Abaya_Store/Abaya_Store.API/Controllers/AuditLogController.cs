@@ -43,7 +43,5 @@ namespace Abaya_Store.API.Controllers
 			return Ok(response);
 
 		}
-
-
 	}
 }

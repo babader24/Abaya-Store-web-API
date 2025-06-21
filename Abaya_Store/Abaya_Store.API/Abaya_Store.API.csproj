@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Abaya_Store.Application\Abaya_Store.Application.csproj" />
+    <ProjectReference Include="..\Abaya_Store.Identity\Abaya_Store.Identity.csproj" />
     <ProjectReference Include="..\Abaya_Store.Infrastructure\Abaya_Store.Infrastructure.csproj" />
     <ProjectReference Include="..\Abaya_Store.Presistence\Abaya_Store.Presistence.csproj" />
   </ItemGroup>

@@ -2,6 +2,7 @@
 using Abaya_Store.Application.Features.Customers.Requests.Commands;
 using Abaya_Store.Application.Features.Customers.Requests.Queries;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -28,6 +29,7 @@ namespace Abaya_Store.API.Controllers
 
 		// GET api/<customerController>/5
 		[HttpGet("{id}")]
+		[Authorize]
 		public async Task<ActionResult<CustomerDto>> Get(int id)
 		{
 			var customer = await _mediator.Send(new GetDetailCustomerRequest { Id = id });

@@ -21,7 +21,7 @@ namespace Abaya_Store.Application.Model.Identity
 
 		[Required]
 		[MinLength(6)]
-		public double Password { get; set; }
+		public string Password { get; set; }
 
 	}
 }

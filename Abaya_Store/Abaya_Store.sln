@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35806.99 d17.13
+VisualStudioVersion = 17.13.35806.99
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
@@ -22,6 +22,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abaya_Store.Presistence", "Abaya_Store.Presistence\Abaya_Store.Presistence.csproj", "{13D6F5EA-88A1-4FA8-B71F-E765642EF09F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abaya_Store.API", "Abaya_Store.API\Abaya_Store.API.csproj", "{FC0CD227-AA7E-4776-A87F-A8911CE5F423}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abaya_Store.Identity", "Abaya_Store.Identity\Abaya_Store.Identity.csproj", "{182F9DCD-712B-48C3-A66C-D6460BD78A83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,10 @@ Global
 		{FC0CD227-AA7E-4776-A87F-A8911CE5F423}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC0CD227-AA7E-4776-A87F-A8911CE5F423}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC0CD227-AA7E-4776-A87F-A8911CE5F423}.Release|Any CPU.Build.0 = Release|Any CPU
+		{182F9DCD-712B-48C3-A66C-D6460BD78A83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{182F9DCD-712B-48C3-A66C-D6460BD78A83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{182F9DCD-712B-48C3-A66C-D6460BD78A83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{182F9DCD-712B-48C3-A66C-D6460BD78A83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +68,7 @@ Global
 		{5937773F-66EB-46DF-9785-02A481CC6BA0} = {431008A5-8B76-419A-BD40-6BB54842361D}
 		{13D6F5EA-88A1-4FA8-B71F-E765642EF09F} = {431008A5-8B76-419A-BD40-6BB54842361D}
 		{FC0CD227-AA7E-4776-A87F-A8911CE5F423} = {4565B0FD-3948-41A3-B9D1-234FFEA02028}
+		{182F9DCD-712B-48C3-A66C-D6460BD78A83} = {431008A5-8B76-419A-BD40-6BB54842361D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2355797A-D8B5-4FA6-9785-50C861C71944}
